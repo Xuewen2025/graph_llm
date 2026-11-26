@@ -1,0 +1,69 @@
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 10742.79it/s]
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 10255.53it/s]
+/home/ubuntu/test/graph_llm/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3204: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+/home/ubuntu/test/graph_llm/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3204: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+trainable: lora 33.03M, new 8.35M, train samples 20000
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"l_text": 1.5196, "l_traj": 16.5811, "loss": 18.1007, "step": 25, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0001, "min": 2.3019}
+{"l_text": 1.3652, "l_traj": 8.8757, "loss": 10.2409, "step": 50, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 4.5714}
+{"l_text": 1.3326, "l_traj": 5.8343, "loss": 7.1669, "step": 75, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 6.8599}
+{"l_text": 1.1228, "l_traj": 4.2971, "loss": 5.4199, "step": 100, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 9.1312}
+{"l_text": 1.0332, "l_traj": 2.3731, "loss": 3.4063, "step": 125, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 11.4187}
+{"l_text": 0.946, "l_traj": 3.0363, "loss": 3.9823, "step": 150, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 13.688}
+{"l_text": 0.8939, "l_traj": 2.2494, "loss": 3.1433, "step": 175, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 15.9726}
+{"l_text": 0.8477, "l_traj": 2.159, "loss": 3.0067, "step": 200, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 18.2169}
+{"l_text": 0.8082, "l_traj": 2.3468, "loss": 3.155, "step": 225, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 20.4562}
+{"l_text": 0.7475, "l_traj": 2.1524, "loss": 2.8999, "step": 250, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 22.7127}
+{"l_text": 0.7386, "l_traj": 1.9301, "loss": 2.6687, "step": 275, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 24.9679}
+{"l_text": 0.7127, "l_traj": 1.5761, "loss": 2.2887, "step": 300, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 27.2262}
+{"l_text": 0.6965, "l_traj": 1.5047, "loss": 2.2011, "step": 325, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 29.4679}
+{"l_text": 0.6926, "l_traj": 2.2678, "loss": 2.9604, "step": 350, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 31.7679}
+{"l_text": 0.6815, "l_traj": 1.6676, "loss": 2.3491, "step": 375, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 34.0348}
+{"l_text": 0.6582, "l_traj": 1.5666, "loss": 2.2249, "step": 400, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 36.318}
+== stage I done -> stage II (alpha 0.1 )
+{"l_text": 0.648, "l_traj": 2.1796, "loss": 2.8276, "step": 425, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0001, "min": 38.5604}
+{"l_text": 0.6587, "l_traj": 1.7551, "loss": 1.821, "step": 450, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 40.8035}
+{"l_text": 0.6704, "l_traj": 1.9041, "loss": 1.9711, "step": 475, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 43.0892}
+{"l_text": 0.6562, "l_traj": 1.3477, "loss": 1.4133, "step": 500, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 45.3195}
+{"l_text": 0.6438, "l_traj": 1.2224, "loss": 1.2868, "step": 525, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 47.6045}
+{"l_text": 0.6499, "l_traj": 1.4938, "loss": 1.5588, "step": 550, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 49.863}
+{"l_text": 0.6521, "l_traj": 1.2688, "loss": 1.334, "step": 575, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 52.1166}
+{"l_text": 0.6605, "l_traj": 1.4532, "loss": 1.5192, "step": 600, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 54.397}
+{"l_text": 0.6647, "l_traj": 1.4062, "loss": 1.4726, "step": 625, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 56.6569}
+{"l_text": 0.6684, "l_traj": 1.3112, "loss": 1.378, "step": 650, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 58.8972}
+{"l_text": 0.6697, "l_traj": 1.3269, "loss": 1.3939, "step": 675, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 61.1495}
+{"l_text": 0.6527, "l_traj": 1.0226, "loss": 1.0879, "step": 700, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 63.4109}
+{"l_text": 0.6568, "l_traj": 1.3365, "loss": 1.4022, "step": 725, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 65.6532}
+{"l_text": 0.6672, "l_traj": 1.2104, "loss": 1.2771, "step": 750, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 67.9077}
+{"l_text": 0.6453, "l_traj": 1.0899, "loss": 1.1544, "step": 775, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 70.1653}
+{"l_text": 0.6487, "l_traj": 1.1026, "loss": 1.1674, "step": 800, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 72.3988}
+{"l_text": 0.6568, "l_traj": 1.0411, "loss": 1.1068, "step": 825, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 74.6709}
+{"l_text": 0.6497, "l_traj": 0.9472, "loss": 1.0122, "step": 850, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 76.9108}
+{"l_text": 0.6537, "l_traj": 0.8952, "loss": 0.9606, "step": 875, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 79.1602}
+{"l_text": 0.6486, "l_traj": 0.9691, "loss": 1.0339, "step": 900, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 81.4574}
+{"l_text": 0.6451, "l_traj": 0.9586, "loss": 1.0231, "step": 925, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 83.7227}
+{"l_text": 0.6536, "l_traj": 0.8886, "loss": 0.954, "step": 950, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 85.977}
+{"l_text": 0.643, "l_traj": 0.9255, "loss": 0.9898, "step": 975, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 88.2086}
+{"l_text": 0.6386, "l_traj": 1.1222, "loss": 1.1861, "step": 1000, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 90.456}
+{"l_text": 0.6474, "l_traj": 0.9515, "loss": 1.0162, "step": 1025, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 92.6991}
+{"l_text": 0.6523, "l_traj": 0.9324, "loss": 0.9976, "step": 1050, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 94.9655}
+{"l_text": 0.661, "l_traj": 0.8958, "loss": 0.9619, "step": 1075, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 97.2257}
+{"l_text": 0.6578, "l_traj": 1.2566, "loss": 1.3224, "step": 1100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 99.4916}
+{"l_text": 0.6535, "l_traj": 0.9302, "loss": 0.9955, "step": 1125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 101.7719}
+{"l_text": 0.6367, "l_traj": 0.9613, "loss": 1.025, "step": 1150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 104.0278}
+{"l_text": 0.6574, "l_traj": 0.9995, "loss": 1.0653, "step": 1175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 106.2915}
+{"l_text": 0.6434, "l_traj": 0.9433, "loss": 1.0076, "step": 1200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 108.5555}
+{"l_text": 0.6442, "l_traj": 0.9441, "loss": 1.0086, "step": 1225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 110.8125}
+{"l_text": 0.654, "l_traj": 0.942, "loss": 1.0074, "step": 1250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 113.0641}
+saved outputs/llm_full_4b/final.pt
+/usr/local/lib/python3.12/dist-packages/torch/distributed/c10d_logger.py:83: UserWarning: barrier(): using the device under current context. You can specify `device_id` in `init_process_group` to mute this warning.
+  return func(*args, **kwargs)

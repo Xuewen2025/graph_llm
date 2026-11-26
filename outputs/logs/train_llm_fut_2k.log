@@ -1,0 +1,19 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 9582.37it/s]
+trainable: lora 10.09M, new 0.00M, train samples 2000
+{"l_text": 0.4491, "loss": 0.4491, "step": 25, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 0.9291}
+{"l_text": 0.2612, "loss": 0.2612, "step": 50, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 1.8324}
+{"l_text": 0.2474, "loss": 0.2474, "step": 75, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 2.7385}
+{"l_text": 0.2343, "loss": 0.2343, "step": 100, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 3.6425}
+{"l_text": 0.225, "loss": 0.225, "step": 125, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 4.5417}
+{"l_text": 0.2185, "loss": 0.2185, "step": 150, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 5.4396}
+{"l_text": 0.2139, "loss": 0.2139, "step": 175, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 6.3383}
+{"l_text": 0.2188, "loss": 0.2188, "step": 200, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 7.2351}
+{"l_text": 0.2208, "loss": 0.2208, "step": 225, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 8.1512}
+{"l_text": 0.2009, "loss": 0.2009, "step": 250, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 9.0554}
+{"l_text": 0.2009, "loss": 0.2009, "step": 275, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 9.9567}
+{"l_text": 0.198, "loss": 0.198, "step": 300, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 10.8479}
+{"l_text": 0.199, "loss": 0.199, "step": 325, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 11.7492}
+{"l_text": 0.1993, "loss": 0.1993, "step": 350, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 12.6546}
+{"l_text": 0.1991, "loss": 0.1991, "step": 375, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 13.5505}
+saved outputs/llm_fut_2k/final.pt

@@ -1,0 +1,58 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 10921.59it/s]
+/home/ubuntu/test/graph_llm/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3204: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+trainable: lora 33.03M, new 0.00M, train samples 20000
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"l_text": 0.5484, "loss": 0.5484, "step": 25, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 1.4094}
+{"l_text": 0.2461, "loss": 0.2461, "step": 50, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 2.8002}
+{"l_text": 0.2176, "loss": 0.2176, "step": 75, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 4.1945}
+{"l_text": 0.2185, "loss": 0.2185, "step": 100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 5.5894}
+{"l_text": 0.2141, "loss": 0.2141, "step": 125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 6.9811}
+{"l_text": 0.2069, "loss": 0.2069, "step": 150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 8.3801}
+{"l_text": 0.2012, "loss": 0.2012, "step": 175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 9.7683}
+{"l_text": 0.2175, "loss": 0.2175, "step": 200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 11.1619}
+{"l_text": 0.198, "loss": 0.198, "step": 225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 12.5496}
+{"l_text": 0.2036, "loss": 0.2036, "step": 250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 13.9442}
+{"l_text": 0.2121, "loss": 0.2121, "step": 275, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 15.3431}
+{"l_text": 0.2075, "loss": 0.2075, "step": 300, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 16.7313}
+{"l_text": 0.2044, "loss": 0.2044, "step": 325, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 18.1259}
+{"l_text": 0.2127, "loss": 0.2127, "step": 350, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 19.5146}
+{"l_text": 0.202, "loss": 0.202, "step": 375, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 20.8945}
+{"l_text": 0.1988, "loss": 0.1988, "step": 400, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 22.2838}
+{"l_text": 0.2055, "loss": 0.2055, "step": 425, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 23.676}
+{"l_text": 0.2114, "loss": 0.2114, "step": 450, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 25.0677}
+{"l_text": 0.2093, "loss": 0.2093, "step": 475, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 26.4668}
+{"l_text": 0.2051, "loss": 0.2051, "step": 500, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 27.8574}
+{"l_text": 0.1953, "loss": 0.1953, "step": 525, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 29.2529}
+{"l_text": 0.1876, "loss": 0.1876, "step": 550, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 30.6404}
+{"l_text": 0.1963, "loss": 0.1963, "step": 575, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 32.0376}
+{"l_text": 0.1989, "loss": 0.1989, "step": 600, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 33.4363}
+{"l_text": 0.1949, "loss": 0.1949, "step": 625, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 34.8299}
+{"l_text": 0.1987, "loss": 0.1987, "step": 650, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 36.221}
+{"l_text": 0.1975, "loss": 0.1975, "step": 675, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 37.6198}
+{"l_text": 0.1989, "loss": 0.1989, "step": 700, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 39.0083}
+{"l_text": 0.2072, "loss": 0.2072, "step": 725, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 40.3949}
+{"l_text": 0.2008, "loss": 0.2008, "step": 750, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 41.7735}
+{"l_text": 0.2004, "loss": 0.2004, "step": 775, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 43.1735}
+{"l_text": 0.1953, "loss": 0.1953, "step": 800, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 44.5591}
+{"l_text": 0.2, "loss": 0.2, "step": 825, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 45.9428}
+{"l_text": 0.2023, "loss": 0.2023, "step": 850, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 47.3362}
+{"l_text": 0.1926, "loss": 0.1926, "step": 875, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 48.7246}
+{"l_text": 0.1915, "loss": 0.1915, "step": 900, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 50.1142}
+{"l_text": 0.1906, "loss": 0.1906, "step": 925, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 51.5112}
+{"l_text": 0.1962, "loss": 0.1962, "step": 950, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 52.8939}
+{"l_text": 0.1955, "loss": 0.1955, "step": 975, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 54.2785}
+{"l_text": 0.1987, "loss": 0.1987, "step": 1000, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 55.6744}
+{"l_text": 0.2011, "loss": 0.2011, "step": 1025, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 57.0615}
+{"l_text": 0.2009, "loss": 0.2009, "step": 1050, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 58.4536}
+{"l_text": 0.1864, "loss": 0.1864, "step": 1075, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 59.8428}
+{"l_text": 0.1903, "loss": 0.1903, "step": 1100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 61.2352}
+{"l_text": 0.1965, "loss": 0.1965, "step": 1125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 62.618}
+{"l_text": 0.1874, "loss": 0.1874, "step": 1150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 64.0015}
+{"l_text": 0.191, "loss": 0.191, "step": 1175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 65.3927}
+{"l_text": 0.1898, "loss": 0.1898, "step": 1200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 66.7985}
+{"l_text": 0.1928, "loss": 0.1928, "step": 1225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 68.1896}
+{"l_text": 0.1926, "loss": 0.1926, "step": 1250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 69.5721}
+saved outputs/llm_raw_4b/final.pt

@@ -1,0 +1,20 @@
+{
+ "variant": "full",
+ "llm": "Qwen/Qwen3-4B",
+ "cache": "data/cache",
+ "out": "outputs/llm_full_4b",
+ "epochs1": 0.34,
+ "epochs2": 0.66,
+ "alpha1": 1.0,
+ "alpha2": 0.1,
+ "bs": 8,
+ "accum": 1,
+ "lr": 0.0002,
+ "lr_new": 0.001,
+ "lora_r": 16,
+ "q_tokens": 8,
+ "train_graph": false,
+ "max_train": 0,
+ "grad_ckpt": true,
+ "world": 2
+}

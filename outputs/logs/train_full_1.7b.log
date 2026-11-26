@@ -1,0 +1,58 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 10345.05it/s]
+/home/ubuntu/test/graph_llm/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3204: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+trainable: lora 17.43M, new 5.66M, train samples 20000
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{"l_text": 1.6827, "l_traj": 16.0195, "loss": 17.7022, "step": 25, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0001, "min": 2.0687}
+{"l_text": 1.4156, "l_traj": 11.4031, "loss": 12.8187, "step": 50, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 4.0854}
+{"l_text": 1.5399, "l_traj": 8.1676, "loss": 9.7075, "step": 75, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 6.1357}
+{"l_text": 1.2826, "l_traj": 6.2166, "loss": 7.4991, "step": 100, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 8.1823}
+{"l_text": 1.2324, "l_traj": 5.4349, "loss": 6.6672, "step": 125, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 10.2227}
+{"l_text": 1.0431, "l_traj": 3.3731, "loss": 4.4162, "step": 150, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 12.2588}
+{"l_text": 0.9701, "l_traj": 2.6329, "loss": 3.603, "step": 175, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 14.3067}
+{"l_text": 0.9235, "l_traj": 2.7499, "loss": 3.6734, "step": 200, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 16.3572}
+{"l_text": 0.8879, "l_traj": 2.5231, "loss": 3.4111, "step": 225, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 18.4141}
+{"l_text": 0.8613, "l_traj": 2.2637, "loss": 3.125, "step": 250, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 20.4504}
+{"l_text": 0.8464, "l_traj": 2.6598, "loss": 3.5062, "step": 275, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 22.495}
+{"l_text": 0.8276, "l_traj": 2.127, "loss": 2.9545, "step": 300, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 24.532}
+{"l_text": 0.8102, "l_traj": 2.3021, "loss": 3.1123, "step": 325, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 26.5729}
+{"l_text": 0.7853, "l_traj": 1.8281, "loss": 2.6134, "step": 350, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 28.6026}
+{"l_text": 0.7826, "l_traj": 1.8325, "loss": 2.6151, "step": 375, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 30.6561}
+{"l_text": 0.7563, "l_traj": 1.8359, "loss": 2.5923, "step": 400, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0002, "min": 32.6951}
+== stage I done -> stage II (alpha 0.1 )
+{"l_text": 0.7591, "l_traj": 1.8517, "loss": 2.6107, "step": 425, "total": 1250, "stage": 1, "alpha": 1.0, "lr": 0.0001, "min": 34.7513}
+{"l_text": 0.7638, "l_traj": 1.656, "loss": 1.7324, "step": 450, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 36.8004}
+{"l_text": 0.7648, "l_traj": 1.8061, "loss": 1.8826, "step": 475, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 38.8655}
+{"l_text": 0.7604, "l_traj": 1.7081, "loss": 1.7841, "step": 500, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 40.9202}
+{"l_text": 0.7655, "l_traj": 1.8016, "loss": 1.8782, "step": 525, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 42.9565}
+{"l_text": 0.7696, "l_traj": 1.4764, "loss": 1.5534, "step": 550, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 45.0024}
+{"l_text": 0.7502, "l_traj": 1.5656, "loss": 1.6406, "step": 575, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 47.0691}
+{"l_text": 0.7613, "l_traj": 1.53, "loss": 1.6061, "step": 600, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 49.1225}
+{"l_text": 0.7532, "l_traj": 1.3619, "loss": 1.4372, "step": 625, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 51.186}
+{"l_text": 0.7571, "l_traj": 1.2756, "loss": 1.3513, "step": 650, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 53.2497}
+{"l_text": 0.757, "l_traj": 1.3161, "loss": 1.3918, "step": 675, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 55.2818}
+{"l_text": 0.752, "l_traj": 1.1672, "loss": 1.2424, "step": 700, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 57.3358}
+{"l_text": 0.7657, "l_traj": 1.3661, "loss": 1.4426, "step": 725, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 59.3714}
+{"l_text": 0.756, "l_traj": 1.1584, "loss": 1.234, "step": 750, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 61.435}
+{"l_text": 0.7597, "l_traj": 1.1246, "loss": 1.2005, "step": 775, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 63.481}
+{"l_text": 0.7533, "l_traj": 1.2092, "loss": 1.2846, "step": 800, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 65.5083}
+{"l_text": 0.7588, "l_traj": 1.1318, "loss": 1.2077, "step": 825, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 67.5502}
+{"l_text": 0.7468, "l_traj": 1.0693, "loss": 1.144, "step": 850, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 69.6173}
+{"l_text": 0.7415, "l_traj": 1.0805, "loss": 1.1546, "step": 875, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 71.6554}
+{"l_text": 0.7494, "l_traj": 1.0944, "loss": 1.1693, "step": 900, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 73.7046}
+{"l_text": 0.7378, "l_traj": 1.1014, "loss": 1.1751, "step": 925, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 75.7403}
+{"l_text": 0.75, "l_traj": 0.9653, "loss": 1.0403, "step": 950, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 77.7984}
+{"l_text": 0.747, "l_traj": 1.0374, "loss": 1.1121, "step": 975, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 79.8238}
+{"l_text": 0.7457, "l_traj": 0.9974, "loss": 1.072, "step": 1000, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 81.8713}
+{"l_text": 0.7564, "l_traj": 0.9371, "loss": 1.0128, "step": 1025, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 83.8886}
+{"l_text": 0.7545, "l_traj": 1.0339, "loss": 1.1094, "step": 1050, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 85.934}
+{"l_text": 0.7497, "l_traj": 0.9319, "loss": 1.0069, "step": 1075, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 87.9708}
+{"l_text": 0.7501, "l_traj": 0.9989, "loss": 1.0739, "step": 1100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 90.0266}
+{"l_text": 0.7588, "l_traj": 0.9813, "loss": 1.0572, "step": 1125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 92.0602}
+{"l_text": 0.7465, "l_traj": 0.8867, "loss": 0.9613, "step": 1150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 94.0935}
+{"l_text": 0.7492, "l_traj": 0.9032, "loss": 0.9781, "step": 1175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 96.1222}
+{"l_text": 0.7513, "l_traj": 0.8636, "loss": 0.9388, "step": 1200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 98.1641}
+{"l_text": 0.7411, "l_traj": 0.9438, "loss": 1.0179, "step": 1225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 100.2026}
+{"l_text": 0.7471, "l_traj": 1.0656, "loss": 1.1403, "step": 1250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 102.2501}
+saved outputs/llm_full_1.7b/final.pt

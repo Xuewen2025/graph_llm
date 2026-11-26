@@ -1,0 +1,19 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 10628.79it/s]
+trainable: lora 10.09M, new 0.00M, train samples 2000
+{"l_text": 0.455, "loss": 0.455, "step": 25, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 0.5825}
+{"l_text": 0.2637, "loss": 0.2637, "step": 50, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 1.1501}
+{"l_text": 0.2492, "loss": 0.2492, "step": 75, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 1.7136}
+{"l_text": 0.2382, "loss": 0.2382, "step": 100, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 2.2802}
+{"l_text": 0.2274, "loss": 0.2274, "step": 125, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 2.8496}
+{"l_text": 0.2191, "loss": 0.2191, "step": 150, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 3.4154}
+{"l_text": 0.2155, "loss": 0.2155, "step": 175, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 3.9779}
+{"l_text": 0.2192, "loss": 0.2192, "step": 200, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 4.542}
+{"l_text": 0.2212, "loss": 0.2212, "step": 225, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 5.1206}
+{"l_text": 0.2017, "loss": 0.2017, "step": 250, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 5.695}
+{"l_text": 0.2018, "loss": 0.2018, "step": 275, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 6.2642}
+{"l_text": 0.1979, "loss": 0.1979, "step": 300, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 6.8212}
+{"l_text": 0.1995, "loss": 0.1995, "step": 325, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 7.3898}
+{"l_text": 0.198, "loss": 0.198, "step": 350, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 7.9602}
+{"l_text": 0.1996, "loss": 0.1996, "step": 375, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 8.5227}
+saved outputs/llm_hist_2k/final.pt

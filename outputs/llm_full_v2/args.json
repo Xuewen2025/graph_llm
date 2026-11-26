@@ -1,0 +1,21 @@
+{
+ "variant": "full",
+ "llm": "Qwen/Qwen3-0.6B",
+ "cache": "data/cache",
+ "out": "outputs/llm_full_v2",
+ "epochs1": 1.0,
+ "epochs2": 2.0,
+ "alpha1": 1.0,
+ "alpha2": 1.0,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0002,
+ "lr_new": 0.001,
+ "lr_graph": 0.0001,
+ "lora_r": 16,
+ "q_tokens": 8,
+ "train_graph": false,
+ "max_train": 0,
+ "grad_ckpt": false,
+ "world": 1
+}

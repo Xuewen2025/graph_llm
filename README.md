@@ -1,5 +1,7 @@
 # SAGE-Drive reproduction
 
+> **Status / handoff:** findings, recommendations and how to restore on a fresh server: [docs/FINDINGS_AND_NEXT_STEPS.md](docs/FINDINGS_AND_NEXT_STEPS.md) (`bash scripts/restore.sh`).
+
 This is a reproduction of *SAGE-Drive: Spatio-Temporal Graph-Enhanced Reasoning for Large Language Models in Autonomous Driving*.
 
 It uses **Argoverse 2 Motion Forecasting** in place of nuPlan. AV2 downloads from a public S3 bucket and needs no account.

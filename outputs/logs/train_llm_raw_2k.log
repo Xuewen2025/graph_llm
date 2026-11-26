@@ -1,0 +1,19 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 11583.70it/s]
+trainable: lora 10.09M, new 0.00M, train samples 2000
+{"l_text": 0.4399, "loss": 0.4399, "step": 25, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 0.3347}
+{"l_text": 0.2624, "loss": 0.2624, "step": 50, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 0.6509}
+{"l_text": 0.247, "loss": 0.247, "step": 75, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 0.9656}
+{"l_text": 0.2345, "loss": 0.2345, "step": 100, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 1.2801}
+{"l_text": 0.2265, "loss": 0.2265, "step": 125, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 1.5961}
+{"l_text": 0.2186, "loss": 0.2186, "step": 150, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 1.9097}
+{"l_text": 0.2156, "loss": 0.2156, "step": 175, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 2.2221}
+{"l_text": 0.2198, "loss": 0.2198, "step": 200, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 2.5356}
+{"l_text": 0.2221, "loss": 0.2221, "step": 225, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 2.8496}
+{"l_text": 0.2021, "loss": 0.2021, "step": 250, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 3.1616}
+{"l_text": 0.2025, "loss": 0.2025, "step": 275, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 3.4773}
+{"l_text": 0.1999, "loss": 0.1999, "step": 300, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 3.792}
+{"l_text": 0.2008, "loss": 0.2008, "step": 325, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 4.1047}
+{"l_text": 0.2, "loss": 0.2, "step": 350, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 4.4192}
+{"l_text": 0.2009, "loss": 0.2009, "step": 375, "total": 375, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 4.7338}
+saved outputs/llm_raw_2k/final.pt

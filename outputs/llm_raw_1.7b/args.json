@@ -1,0 +1,20 @@
+{
+ "variant": "raw",
+ "llm": "Qwen/Qwen3-1.7B",
+ "cache": "data/cache",
+ "out": "outputs/llm_raw_1.7b",
+ "epochs1": 0.0,
+ "epochs2": 1.0,
+ "alpha1": 1.0,
+ "alpha2": 0.1,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0002,
+ "lr_new": 0.001,
+ "lora_r": 16,
+ "q_tokens": 8,
+ "train_graph": false,
+ "max_train": 0,
+ "grad_ckpt": false,
+ "world": 1
+}
