@@ -12,6 +12,9 @@ MID = re.compile(r"The user sent a new message while you were working:\n(.*?)\n\
 def clean(t):
     for tag in ("system-reminder", "ide_selection", "ide_opened_file", "task-notification"):
         t = re.sub(rf"<{tag}>.*?</{tag}>", "", t, flags=re.S)
+    t = re.sub(r"-----BEGIN [A-Z ]*PRIVATE KEY-----.*?-----END [A-Z ]*PRIVATE KEY-----",
+               "<PRIVATE KEY REDACTED>", t, flags=re.S)
+    t = re.sub(r"b3BlbnNzaC1rZXktdjE[A-Za-z0-9+/=\s]{40,}", "<PRIVATE KEY REDACTED>", t)
     t = re.sub(r"sk-or-v1-[A-Za-z0-9]+", "sk-or-v1-<REDACTED>", t)
     t = re.sub(r"sk-[A-Za-z0-9_-]{20,}", "sk-<REDACTED>", t)
     t = re.sub(r"[\w.+-]+@[\w-]+\.(com|org|net|io)", "<email>", t)

@@ -6,3 +6,4 @@ outputs/*
 __pycache__/
 *.pt
 *.pkl
+!outputs/significance.md
