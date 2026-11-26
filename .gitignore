@@ -1,0 +1,8 @@
+.env
+data/
+outputs/*
+!outputs/results.md
+!outputs/results_by_scene.md
+__pycache__/
+*.pt
+*.pkl
