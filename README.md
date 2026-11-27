@@ -1,6 +1,107 @@
-# SAGE-Drive reproduction
+# SAGE-Drive reproduction and follow-up: does a (V)LM plan better from a scene graph?
 
-> **Status / handoff:** findings, recommendations and how to restore on a fresh server: [docs/FINDINGS_AND_NEXT_STEPS.md](docs/FINDINGS_AND_NEXT_STEPS.md) (`bash scripts/restore.sh`).
+> **Status / handoff:** detailed findings (Chinese), recommendations and restore instructions are in [docs/FINDINGS_AND_NEXT_STEPS.md](docs/FINDINGS_AND_NEXT_STEPS.md). To rebuild everything on a fresh server, run `bash scripts/restore.sh`.
+
+**Research question.** An image input gives a VLM no explicit spatial layout or relations, while a scene graph carries both. Does turning the scene into a graph, and feeding it to a (V)LM that can read graphs, give better driving plans than feeding the image?
+
+The repo has two parts:
+1. A reproduction of SAGE-Drive on Argoverse 2 (Qwen3-0.6B + LoRA). See [Reproduction](#reproduction-of-sage-drive) below.
+2. Follow-up experiments on the research question, summarised next.
+
+All numbers below are ADE@6s in metres on AV2 val (2000 scenarios, lower is better), unless stated. Significance is a paired bootstrap with 5000 resamples; `*` means the 95% CI excludes 0.
+
+## Follow-up experiments
+
+### Experiment 1 (core question): image vs graph for a VLM
+
+- **Model.** Qwen2.5-VL-3B-Instruct with LoRA (r=16) on the language model. The vision tower is frozen and the merger is trainable.
+- **Training budget.** Identical for all variants: 2 epochs, effective batch 16.
+- **Shared inputs.** Every variant gets the same instruction, ego state (speed, acceleration, yaw rate, past 2 s) and navigation command.
+- **BEV raster.** 448×448 pixels, about 0.2 m/px, carrying the same information as the graph text. See [`sage/bev.py`](sage/bev.py).
+
+| Variant | Scene input | ADE@6s | Lead vehicle (n=600) | Hard (n=400) | Turn (n=120) | Scene gain vs `ego` |
+|---|---|---|---|---|---|---|
+| `ego` | none (control) | 2.096 | 1.793 | 3.427 | 4.165 | – |
+| `img` | BEV image | 2.038 | 1.757 | 3.312 | 3.729 | 0.058 * |
+| `raw` | object/lane lists as text | 1.995 | 1.691 | 3.301 | 3.627 | 0.101 * |
+| `hist` | scene graph as text | 1.988 | 1.679 | 3.225 | 3.755 | 0.108 * |
+| `imghist` | image + graph text | **1.945** | **1.661** | **3.131** | **3.443** | **0.151 *** |
+| (ref) GNN planner | graph, no LM | 1.507 | 1.125 | 2.222 | 2.547 | |
+
+- **Graph text vs image:** −2.5%, CI [−0.103, +0.002]. Borderline.
+- **Image + graph vs image:** −4.6% *.
+- **Image + graph vs graph text:** −2.2% *, and −8.3% * on turns.
+
+Takeaways:
+- When the VLM outputs the trajectory directly, it gets only 3–7% from the scene. Most of the error is ego-motion extrapolation, so the trajectory metric compresses the differences between scene representations.
+- Within that scene gain, graph text extracts about 1.9× what the image does. Combining the two is best.
+- Graph text is on par with unstructured text lists. The gain comes from an explicit symbolic description rather than from the relational structure itself.
+
+Next steps:
+- Spatial/relational QA and decision probes, where scene understanding is the whole task.
+- A graph-token variant: graph encoder, then projector, then VLM, symmetric to the image pathway.
+
+Code: [`sage/vlm.py`](sage/vlm.py), [`scripts/render_bev.py`](scripts/render_bev.py), [`scripts/train_vlm.py`](scripts/train_vlm.py), [`scripts/vlm_jobs.sh`](scripts/vlm_jobs.sh), [`scripts/compare_vlm.py`](scripts/compare_vlm.py). Full table: [outputs/vlm_results.md](outputs/vlm_results.md).
+
+### P1: is the LM needed at all? (GNN planner reference)
+
+[`sage/gnn_planner.py`](sage/gnn_planner.py) adds a cross-attention ego planning head to the ST graph predictor. It plans a residual over constant velocity.
+
+| Run | ADE@6s | Note |
+|---|---|---|
+| `gnn_plan` | **1.507** | −15.2% * vs best LLM (`llm_fut`, 1.776); −22% * with a lead vehicle |
+| without navigation command | 1.700 | +12.8% * |
+| from scratch (no predictor init) | 1.471 | n.s. |
+| without agent-agent edges | 1.478 | n.s. |
+| second seed | 1.551 | |
+
+Code: [`scripts/train_gnn_planner.py`](scripts/train_gnn_planner.py), [`scripts/p1_jobs.sh`](scripts/p1_jobs.sh), [`scripts/compare_p1.py`](scripts/compare_p1.py). Results: [outputs/p1_results.md](outputs/p1_results.md).
+
+### P2: LM for high-level decisions, graph decoder for the trajectory
+
+- **Decisions.** Target lane, lead agent, and speed at 3 s and 6 s. They are derived from GT in [`sage/decision.py`](sage/decision.py).
+- **Decoder.** A decision-conditioned GNN decoder ([`scripts/train_dec_planner.py`](scripts/train_dec_planner.py)).
+
+| Decision source | ADE@6s | Decision accuracy (lane / lead / v3 / v6) |
+|---|---|---|
+| GT decisions (oracle) | 0.714 | – |
+| GNN's own decision heads | 1.541 | 86.4 / 91.6 / 72.1 / 59.8 % |
+| LLM decisions (Qwen3-0.6B) | 1.696 | 80.5 / 91.2 / 69.5 / 56.1 % |
+
+### A / B / D: where could the LM add value?
+
+| Test | Result |
+|---|---|
+| A1: low data (2k scenes) | GNN 1.826 vs LLM 2.166; both degrade by about 21% → no LM advantage |
+| A2: cross-city (Pittsburgh held out) | OOD-specific penalty: GNN +0.095, LLM −0.034, difference n.s.; GNN still 0.285 m * better on Pittsburgh |
+| B: complementarity | error correlation GNN–LLM 0.72 vs GNN–GNN 0.88; adding the LLM to a 2-seed GNN average gives −0.030 m * (−2%) |
+| D: natural-language instructions | on unseen paraphrases the LLM degrades by 3% (0.976) and the GNN with a frozen-embedding text encoder by 62% (1.456) |
+
+Code:
+- A2: [`scripts/make_xcity.py`](scripts/make_xcity.py), [`scripts/xcity_jobs.sh`](scripts/xcity_jobs.sh).
+- D: [`sage/instruct.py`](sage/instruct.py), [`scripts/build_instructions.py`](scripts/build_instructions.py), [`scripts/embed_instructions.py`](scripts/embed_instructions.py), [`scripts/d_jobs.sh`](scripts/d_jobs.sh).
+- P2: [`scripts/build_decisions.py`](scripts/build_decisions.py), [`scripts/gen_llm_dec.py`](scripts/gen_llm_dec.py), [`scripts/p2_jobs.sh`](scripts/p2_jobs.sh).
+
+### Running the follow-ups
+
+```bash
+bash scripts/restore.sh        # data, caches, BEV rasters, decision labels, cross-city split
+bash scripts/p1_jobs.sh        # GNN planner + ablations
+bash scripts/p2_jobs.sh        # decision LLM + decision-conditioned decoder
+bash scripts/xcity_jobs.sh     # A2 cross-city
+bash scripts/d_jobs.sh         # D instructions (first: python scripts/embed_instructions.py --split train|val)
+bash scripts/vlm_jobs.sh       # Experiment 1, about 10 h on one A100 for 4 variants
+python scripts/train_vlm.py --variant ego --out outputs/vlm_ego --bs 4 --accum 4 --epochs 2   # control
+python scripts/compare_vlm.py
+```
+
+Checkpoints:
+- **In the repo:** the 0.6B LoRA and GNN checkpoints.
+- **Not in the repo:** the VLM LoRA + merger checkpoints, which are 120–270 MB each and over GitHub's file limit. They are on the original server under `outputs/vlm_*/final.pt`. The predictions and metrics of every run are committed.
+
+---
+
+## Reproduction of SAGE-Drive
 
 This is a reproduction of *SAGE-Drive: Spatio-Temporal Graph-Enhanced Reasoning for Large Language Models in Autonomous Driving*.
 

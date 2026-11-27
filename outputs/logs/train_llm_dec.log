@@ -1,0 +1,55 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 9495.04it/s]
+init from outputs/llm_fut/final.pt
+trainable: lora 10.09M, new 0.00M, train samples 20000
+{"l_text": 1.2516, "loss": 1.2516, "step": 25, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 0.915}
+{"l_text": 0.151, "loss": 0.151, "step": 50, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 2.0985}
+{"l_text": 0.1265, "loss": 0.1265, "step": 75, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 3.317}
+{"l_text": 0.1293, "loss": 0.1293, "step": 100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 4.5768}
+{"l_text": 0.1133, "loss": 0.1133, "step": 125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 5.7699}
+{"l_text": 0.1132, "loss": 0.1132, "step": 150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 7.0378}
+{"l_text": 0.1156, "loss": 0.1156, "step": 175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 8.2905}
+{"l_text": 0.108, "loss": 0.108, "step": 200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 9.5022}
+{"l_text": 0.1035, "loss": 0.1035, "step": 225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 10.7432}
+{"l_text": 0.1042, "loss": 0.1042, "step": 250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 11.9814}
+{"l_text": 0.106, "loss": 0.106, "step": 275, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 13.2078}
+{"l_text": 0.1047, "loss": 0.1047, "step": 300, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 14.4378}
+{"l_text": 0.1026, "loss": 0.1026, "step": 325, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 15.6467}
+{"l_text": 0.1028, "loss": 0.1028, "step": 350, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 16.8835}
+{"l_text": 0.095, "loss": 0.095, "step": 375, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 18.1373}
+{"l_text": 0.0948, "loss": 0.0948, "step": 400, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0002, "min": 19.3411}
+{"l_text": 0.092, "loss": 0.092, "step": 425, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 20.6039}
+{"l_text": 0.0898, "loss": 0.0898, "step": 450, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 21.8177}
+{"l_text": 0.0978, "loss": 0.0978, "step": 475, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 23.0709}
+{"l_text": 0.0904, "loss": 0.0904, "step": 500, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 24.3125}
+{"l_text": 0.0954, "loss": 0.0954, "step": 525, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 25.5165}
+{"l_text": 0.0875, "loss": 0.0875, "step": 550, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 26.4475}
+{"l_text": 0.0918, "loss": 0.0918, "step": 575, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 27.3519}
+{"l_text": 0.0843, "loss": 0.0843, "step": 600, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 28.2707}
+{"l_text": 0.0937, "loss": 0.0937, "step": 625, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 29.1763}
+{"l_text": 0.0949, "loss": 0.0949, "step": 650, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 30.0797}
+{"l_text": 0.0799, "loss": 0.0799, "step": 675, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 30.9738}
+{"l_text": 0.0883, "loss": 0.0883, "step": 700, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 31.8873}
+{"l_text": 0.09, "loss": 0.09, "step": 725, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 32.7906}
+{"l_text": 0.0838, "loss": 0.0838, "step": 750, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 33.6816}
+{"l_text": 0.0893, "loss": 0.0893, "step": 775, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 34.5775}
+{"l_text": 0.088, "loss": 0.088, "step": 800, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 35.4856}
+{"l_text": 0.0858, "loss": 0.0858, "step": 825, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0001, "min": 36.3839}
+{"l_text": 0.0865, "loss": 0.0865, "step": 850, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 37.2825}
+{"l_text": 0.078, "loss": 0.078, "step": 875, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 38.2038}
+{"l_text": 0.0883, "loss": 0.0883, "step": 900, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 39.0959}
+{"l_text": 0.0849, "loss": 0.0849, "step": 925, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 39.9825}
+{"l_text": 0.0833, "loss": 0.0833, "step": 950, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 40.8948}
+{"l_text": 0.0836, "loss": 0.0836, "step": 975, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 41.7972}
+{"l_text": 0.0803, "loss": 0.0803, "step": 1000, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 42.694}
+{"l_text": 0.0815, "loss": 0.0815, "step": 1025, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 43.5858}
+{"l_text": 0.0801, "loss": 0.0801, "step": 1050, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 44.5036}
+{"l_text": 0.0771, "loss": 0.0771, "step": 1075, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 45.384}
+{"l_text": 0.0881, "loss": 0.0881, "step": 1100, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 46.2772}
+{"l_text": 0.0793, "loss": 0.0793, "step": 1125, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 47.1739}
+{"l_text": 0.0894, "loss": 0.0894, "step": 1150, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 48.0922}
+{"l_text": 0.0912, "loss": 0.0912, "step": 1175, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 49.2185}
+{"l_text": 0.0852, "loss": 0.0852, "step": 1200, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 50.1204}
+{"l_text": 0.0845, "loss": 0.0845, "step": 1225, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 51.0561}
+{"l_text": 0.0826, "loss": 0.0826, "step": 1250, "total": 1250, "stage": 2, "alpha": 0.1, "lr": 0.0, "min": 51.9662}
+saved outputs/llm_dec/final.pt

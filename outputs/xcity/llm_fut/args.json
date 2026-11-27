@@ -1,0 +1,22 @@
+{
+ "variant": "fut",
+ "llm": "Qwen/Qwen3-0.6B",
+ "cache": "data/cache_xcity",
+ "out": "outputs/xcity/llm_fut",
+ "epochs1": 0.0,
+ "epochs2": 3.0,
+ "alpha1": 1.0,
+ "alpha2": 0.1,
+ "bs": 8,
+ "accum": 2,
+ "lr": 0.0002,
+ "lr_new": 0.001,
+ "lr_graph": 0.0001,
+ "lora_r": 16,
+ "q_tokens": 8,
+ "train_graph": false,
+ "max_train": 0,
+ "init": null,
+ "grad_ckpt": false,
+ "world": 1
+}

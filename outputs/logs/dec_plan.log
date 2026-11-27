@@ -1,0 +1,152 @@
+ep 0 it 0 loss 12.161 ade 3.920 fde 6.956 ego_ade6 3.051 acc_lane 0.266 acc_lead 0.047 acc_v3 0.000 acc_v6 0.109
+ep 0 it 100 loss 7.459 ade 2.120 fde 3.887 ego_ade6 2.695 acc_lane 0.469 acc_lead 0.812 acc_v3 0.500 acc_v6 0.422
+ep 0 it 200 loss 5.732 ade 1.830 fde 3.310 ego_ade6 1.635 acc_lane 0.609 acc_lead 0.672 acc_v3 0.438 acc_v6 0.438
+ep 0 it 300 loss 4.720 ade 1.594 fde 2.873 ego_ade6 1.442 acc_lane 0.734 acc_lead 0.750 acc_v3 0.484 acc_v6 0.453
+== ep 0 val ADE@6s gt-dec 1.426 own-dec 2.660 (62s)
+ep 1 it 0 loss 4.491 ade 1.383 fde 2.537 ego_ade6 1.408 acc_lane 0.719 acc_lead 0.750 acc_v3 0.578 acc_v6 0.562
+ep 1 it 100 loss 4.161 ade 1.199 fde 2.208 ego_ade6 1.585 acc_lane 0.812 acc_lead 0.828 acc_v3 0.531 acc_v6 0.453
+ep 1 it 200 loss 3.314 ade 0.822 fde 1.561 ego_ade6 1.343 acc_lane 0.750 acc_lead 0.875 acc_v3 0.672 acc_v6 0.609
+ep 1 it 300 loss 3.164 ade 0.864 fde 1.535 ego_ade6 1.400 acc_lane 0.859 acc_lead 0.875 acc_v3 0.766 acc_v6 0.562
+== ep 1 val ADE@6s gt-dec 1.447 own-dec 2.286 (46s)
+ep 2 it 0 loss 3.169 ade 0.858 fde 1.527 ego_ade6 1.248 acc_lane 0.828 acc_lead 0.828 acc_v3 0.641 acc_v6 0.562
+ep 2 it 100 loss 3.258 ade 0.894 fde 1.634 ego_ade6 1.137 acc_lane 0.750 acc_lead 0.844 acc_v3 0.609 acc_v6 0.516
+ep 2 it 200 loss 3.105 ade 0.842 fde 1.608 ego_ade6 1.226 acc_lane 0.844 acc_lead 0.859 acc_v3 0.656 acc_v6 0.578
+ep 2 it 300 loss 2.571 ade 0.798 fde 1.416 ego_ade6 0.821 acc_lane 0.828 acc_lead 0.844 acc_v3 0.672 acc_v6 0.625
+== ep 2 val ADE@6s gt-dec 1.061 own-dec 1.957 (45s)
+ep 3 it 0 loss 2.987 ade 0.760 fde 1.463 ego_ade6 1.125 acc_lane 0.797 acc_lead 0.828 acc_v3 0.641 acc_v6 0.609
+ep 3 it 100 loss 2.580 ade 0.761 fde 1.426 ego_ade6 0.938 acc_lane 0.922 acc_lead 0.906 acc_v3 0.750 acc_v6 0.625
+ep 3 it 200 loss 3.186 ade 0.732 fde 1.405 ego_ade6 1.054 acc_lane 0.766 acc_lead 0.781 acc_v3 0.641 acc_v6 0.531
+ep 3 it 300 loss 2.994 ade 0.792 fde 1.469 ego_ade6 1.021 acc_lane 0.859 acc_lead 0.875 acc_v3 0.656 acc_v6 0.562
+== ep 3 val ADE@6s gt-dec 0.911 own-dec 1.789 (45s)
+ep 4 it 0 loss 2.855 ade 0.851 fde 1.652 ego_ade6 0.929 acc_lane 0.812 acc_lead 0.891 acc_v3 0.688 acc_v6 0.594
+ep 4 it 100 loss 2.479 ade 0.795 fde 1.459 ego_ade6 1.104 acc_lane 0.938 acc_lead 0.906 acc_v3 0.797 acc_v6 0.812
+ep 4 it 200 loss 2.530 ade 0.769 fde 1.462 ego_ade6 0.813 acc_lane 0.766 acc_lead 0.891 acc_v3 0.719 acc_v6 0.625
+ep 4 it 300 loss 2.501 ade 0.714 fde 1.315 ego_ade6 0.901 acc_lane 0.859 acc_lead 0.875 acc_v3 0.719 acc_v6 0.672
+== ep 4 val ADE@6s gt-dec 0.947 own-dec 1.770 (53s)
+ep 5 it 0 loss 2.604 ade 0.768 fde 1.424 ego_ade6 0.926 acc_lane 0.781 acc_lead 0.938 acc_v3 0.734 acc_v6 0.594
+ep 5 it 100 loss 3.266 ade 0.844 fde 1.603 ego_ade6 1.126 acc_lane 0.797 acc_lead 0.875 acc_v3 0.641 acc_v6 0.469
+ep 5 it 200 loss 3.310 ade 0.872 fde 1.678 ego_ade6 1.099 acc_lane 0.844 acc_lead 0.875 acc_v3 0.641 acc_v6 0.484
+ep 5 it 300 loss 2.856 ade 0.817 fde 1.489 ego_ade6 0.904 acc_lane 0.812 acc_lead 0.891 acc_v3 0.688 acc_v6 0.500
+== ep 5 val ADE@6s gt-dec 0.984 own-dec 1.786 (47s)
+ep 6 it 0 loss 2.582 ade 0.792 fde 1.436 ego_ade6 0.933 acc_lane 0.859 acc_lead 0.812 acc_v3 0.797 acc_v6 0.703
+ep 6 it 100 loss 2.366 ade 0.708 fde 1.303 ego_ade6 0.869 acc_lane 0.859 acc_lead 0.859 acc_v3 0.766 acc_v6 0.719
+ep 6 it 200 loss 2.618 ade 0.782 fde 1.423 ego_ade6 0.910 acc_lane 0.844 acc_lead 0.844 acc_v3 0.734 acc_v6 0.594
+ep 6 it 300 loss 2.514 ade 0.756 fde 1.449 ego_ade6 0.828 acc_lane 0.906 acc_lead 0.922 acc_v3 0.688 acc_v6 0.531
+== ep 6 val ADE@6s gt-dec 0.970 own-dec 1.811 (45s)
+ep 7 it 0 loss 2.400 ade 0.665 fde 1.249 ego_ade6 0.976 acc_lane 0.938 acc_lead 0.844 acc_v3 0.750 acc_v6 0.641
+ep 7 it 100 loss 2.374 ade 0.733 fde 1.429 ego_ade6 0.906 acc_lane 0.906 acc_lead 0.922 acc_v3 0.719 acc_v6 0.641
+ep 7 it 200 loss 2.559 ade 0.722 fde 1.374 ego_ade6 0.760 acc_lane 0.781 acc_lead 0.875 acc_v3 0.719 acc_v6 0.688
+ep 7 it 300 loss 2.316 ade 0.741 fde 1.358 ego_ade6 0.745 acc_lane 0.906 acc_lead 0.891 acc_v3 0.719 acc_v6 0.641
+== ep 7 val ADE@6s gt-dec 0.795 own-dec 1.651 (45s)
+ep 8 it 0 loss 2.526 ade 0.817 fde 1.518 ego_ade6 0.739 acc_lane 0.812 acc_lead 0.906 acc_v3 0.719 acc_v6 0.578
+ep 8 it 100 loss 2.365 ade 0.783 fde 1.495 ego_ade6 0.726 acc_lane 0.922 acc_lead 0.859 acc_v3 0.719 acc_v6 0.625
+ep 8 it 200 loss 2.753 ade 0.761 fde 1.360 ego_ade6 0.877 acc_lane 0.859 acc_lead 0.922 acc_v3 0.641 acc_v6 0.453
+ep 8 it 300 loss 1.973 ade 0.636 fde 1.155 ego_ade6 0.686 acc_lane 0.859 acc_lead 0.891 acc_v3 0.766 acc_v6 0.641
+== ep 8 val ADE@6s gt-dec 0.899 own-dec 1.774 (54s)
+ep 9 it 0 loss 1.983 ade 0.612 fde 1.169 ego_ade6 0.864 acc_lane 0.922 acc_lead 1.000 acc_v3 0.922 acc_v6 0.734
+ep 9 it 100 loss 2.408 ade 0.675 fde 1.213 ego_ade6 0.819 acc_lane 0.891 acc_lead 0.891 acc_v3 0.719 acc_v6 0.594
+ep 9 it 200 loss 1.817 ade 0.681 fde 1.263 ego_ade6 0.635 acc_lane 0.953 acc_lead 0.953 acc_v3 0.812 acc_v6 0.703
+ep 9 it 300 loss 2.543 ade 0.675 fde 1.253 ego_ade6 1.008 acc_lane 0.875 acc_lead 0.938 acc_v3 0.688 acc_v6 0.594
+== ep 9 val ADE@6s gt-dec 0.749 own-dec 1.608 (49s)
+ep 10 it 0 loss 2.194 ade 0.708 fde 1.289 ego_ade6 0.697 acc_lane 0.875 acc_lead 0.906 acc_v3 0.766 acc_v6 0.594
+ep 10 it 100 loss 2.474 ade 0.712 fde 1.248 ego_ade6 0.761 acc_lane 0.844 acc_lead 0.922 acc_v3 0.766 acc_v6 0.547
+ep 10 it 200 loss 2.342 ade 0.621 fde 1.070 ego_ade6 0.807 acc_lane 0.812 acc_lead 0.922 acc_v3 0.734 acc_v6 0.641
+ep 10 it 300 loss 2.155 ade 0.725 fde 1.292 ego_ade6 0.661 acc_lane 0.891 acc_lead 0.922 acc_v3 0.812 acc_v6 0.516
+== ep 10 val ADE@6s gt-dec 0.824 own-dec 1.628 (45s)
+ep 11 it 0 loss 2.163 ade 0.840 fde 1.521 ego_ade6 0.656 acc_lane 0.891 acc_lead 1.000 acc_v3 0.703 acc_v6 0.688
+ep 11 it 100 loss 2.286 ade 0.740 fde 1.360 ego_ade6 0.631 acc_lane 0.797 acc_lead 0.969 acc_v3 0.797 acc_v6 0.562
+ep 11 it 200 loss 2.193 ade 0.654 fde 1.241 ego_ade6 0.806 acc_lane 0.906 acc_lead 0.922 acc_v3 0.750 acc_v6 0.562
+ep 11 it 300 loss 2.424 ade 0.735 fde 1.331 ego_ade6 0.824 acc_lane 0.891 acc_lead 0.859 acc_v3 0.703 acc_v6 0.641
+== ep 11 val ADE@6s gt-dec 0.746 own-dec 1.604 (45s)
+ep 12 it 0 loss 1.941 ade 0.714 fde 1.313 ego_ade6 0.593 acc_lane 0.875 acc_lead 0.891 acc_v3 0.828 acc_v6 0.578
+ep 12 it 100 loss 2.249 ade 0.687 fde 1.222 ego_ade6 0.783 acc_lane 0.922 acc_lead 0.953 acc_v3 0.734 acc_v6 0.562
+ep 12 it 200 loss 2.000 ade 0.639 fde 1.163 ego_ade6 0.579 acc_lane 0.828 acc_lead 0.953 acc_v3 0.750 acc_v6 0.625
+ep 12 it 300 loss 2.001 ade 0.756 fde 1.410 ego_ade6 0.600 acc_lane 0.906 acc_lead 0.953 acc_v3 0.750 acc_v6 0.719
+== ep 12 val ADE@6s gt-dec 0.768 own-dec 1.640 (50s)
+ep 13 it 0 loss 2.042 ade 0.587 fde 1.075 ego_ade6 0.615 acc_lane 0.812 acc_lead 0.859 acc_v3 0.766 acc_v6 0.562
+ep 13 it 100 loss 2.153 ade 0.740 fde 1.363 ego_ade6 0.779 acc_lane 0.891 acc_lead 0.922 acc_v3 0.734 acc_v6 0.656
+ep 13 it 200 loss 1.844 ade 0.603 fde 1.084 ego_ade6 0.542 acc_lane 0.828 acc_lead 0.906 acc_v3 0.844 acc_v6 0.641
+ep 13 it 300 loss 2.119 ade 0.672 fde 1.238 ego_ade6 0.751 acc_lane 0.875 acc_lead 0.938 acc_v3 0.766 acc_v6 0.625
+== ep 13 val ADE@6s gt-dec 0.777 own-dec 1.589 (53s)
+ep 14 it 0 loss 2.062 ade 0.732 fde 1.317 ego_ade6 0.766 acc_lane 0.922 acc_lead 0.922 acc_v3 0.734 acc_v6 0.672
+ep 14 it 100 loss 2.059 ade 0.647 fde 1.190 ego_ade6 0.599 acc_lane 0.859 acc_lead 0.922 acc_v3 0.688 acc_v6 0.641
+ep 14 it 200 loss 1.795 ade 0.676 fde 1.263 ego_ade6 0.723 acc_lane 0.938 acc_lead 0.938 acc_v3 0.781 acc_v6 0.781
+ep 14 it 300 loss 1.978 ade 0.665 fde 1.208 ego_ade6 0.596 acc_lane 0.859 acc_lead 0.875 acc_v3 0.750 acc_v6 0.672
+== ep 14 val ADE@6s gt-dec 0.721 own-dec 1.562 (46s)
+ep 15 it 0 loss 2.027 ade 0.666 fde 1.245 ego_ade6 0.719 acc_lane 0.922 acc_lead 0.906 acc_v3 0.781 acc_v6 0.656
+ep 15 it 100 loss 1.937 ade 0.711 fde 1.274 ego_ade6 0.680 acc_lane 0.891 acc_lead 0.938 acc_v3 0.797 acc_v6 0.688
+ep 15 it 200 loss 2.074 ade 0.682 fde 1.199 ego_ade6 0.667 acc_lane 0.922 acc_lead 0.938 acc_v3 0.750 acc_v6 0.547
+ep 15 it 300 loss 1.713 ade 0.657 fde 1.189 ego_ade6 0.577 acc_lane 0.906 acc_lead 0.938 acc_v3 0.797 acc_v6 0.688
+== ep 15 val ADE@6s gt-dec 0.726 own-dec 1.588 (46s)
+ep 16 it 0 loss 1.695 ade 0.600 fde 1.115 ego_ade6 0.548 acc_lane 0.938 acc_lead 0.969 acc_v3 0.781 acc_v6 0.625
+ep 16 it 100 loss 1.889 ade 0.640 fde 1.194 ego_ade6 0.557 acc_lane 0.969 acc_lead 0.938 acc_v3 0.766 acc_v6 0.672
+ep 16 it 200 loss 1.694 ade 0.672 fde 1.279 ego_ade6 0.512 acc_lane 0.922 acc_lead 0.906 acc_v3 0.859 acc_v6 0.766
+ep 16 it 300 loss 1.771 ade 0.659 fde 1.166 ego_ade6 0.569 acc_lane 0.922 acc_lead 0.922 acc_v3 0.844 acc_v6 0.609
+== ep 16 val ADE@6s gt-dec 0.724 own-dec 1.547 (49s)
+ep 17 it 0 loss 1.802 ade 0.619 fde 1.094 ego_ade6 0.585 acc_lane 0.922 acc_lead 0.922 acc_v3 0.797 acc_v6 0.625
+ep 17 it 100 loss 1.549 ade 0.579 fde 1.056 ego_ade6 0.522 acc_lane 0.953 acc_lead 0.938 acc_v3 0.781 acc_v6 0.750
+ep 17 it 200 loss 1.420 ade 0.566 fde 1.015 ego_ade6 0.451 acc_lane 0.953 acc_lead 0.953 acc_v3 0.797 acc_v6 0.781
+ep 17 it 300 loss 1.468 ade 0.572 fde 1.040 ego_ade6 0.515 acc_lane 0.953 acc_lead 0.969 acc_v3 0.828 acc_v6 0.719
+== ep 17 val ADE@6s gt-dec 0.714 own-dec 1.556 (52s)
+ep 18 it 0 loss 1.550 ade 0.610 fde 1.102 ego_ade6 0.575 acc_lane 0.953 acc_lead 0.984 acc_v3 0.844 acc_v6 0.766
+ep 18 it 100 loss 1.560 ade 0.640 fde 1.207 ego_ade6 0.503 acc_lane 0.938 acc_lead 0.953 acc_v3 0.859 acc_v6 0.719
+ep 18 it 200 loss 1.606 ade 0.650 fde 1.170 ego_ade6 0.495 acc_lane 0.953 acc_lead 0.938 acc_v3 0.859 acc_v6 0.609
+ep 18 it 300 loss 1.611 ade 0.649 fde 1.213 ego_ade6 0.533 acc_lane 0.891 acc_lead 0.953 acc_v3 0.859 acc_v6 0.719
+== ep 18 val ADE@6s gt-dec 0.714 own-dec 1.541 (44s)
+ep 19 it 0 loss 1.589 ade 0.621 fde 1.118 ego_ade6 0.557 acc_lane 0.938 acc_lead 0.969 acc_v3 0.859 acc_v6 0.656
+ep 19 it 100 loss 1.748 ade 0.653 fde 1.203 ego_ade6 0.610 acc_lane 0.906 acc_lead 0.953 acc_v3 0.797 acc_v6 0.688
+ep 19 it 200 loss 1.632 ade 0.676 fde 1.295 ego_ade6 0.540 acc_lane 0.844 acc_lead 1.000 acc_v3 0.875 acc_v6 0.688
+ep 19 it 300 loss 1.675 ade 0.686 fde 1.269 ego_ade6 0.532 acc_lane 0.922 acc_lead 0.938 acc_v3 0.812 acc_v6 0.672
+== ep 19 val ADE@6s gt-dec 0.689 own-dec 1.547 (45s)
+ep 20 it 0 loss 1.525 ade 0.651 fde 1.199 ego_ade6 0.513 acc_lane 0.922 acc_lead 1.000 acc_v3 0.844 acc_v6 0.719
+ep 20 it 100 loss 1.520 ade 0.629 fde 1.078 ego_ade6 0.445 acc_lane 0.938 acc_lead 0.953 acc_v3 0.734 acc_v6 0.750
+ep 20 it 200 loss 1.781 ade 0.682 fde 1.253 ego_ade6 0.489 acc_lane 0.891 acc_lead 0.938 acc_v3 0.797 acc_v6 0.750
+ep 20 it 300 loss 1.584 ade 0.697 fde 1.229 ego_ade6 0.468 acc_lane 0.969 acc_lead 0.938 acc_v3 0.844 acc_v6 0.672
+== ep 20 val ADE@6s gt-dec 0.696 own-dec 1.547 (46s)
+ep 21 it 0 loss 1.316 ade 0.654 fde 1.195 ego_ade6 0.420 acc_lane 0.953 acc_lead 0.953 acc_v3 0.891 acc_v6 0.812
+ep 21 it 100 loss 1.513 ade 0.674 fde 1.277 ego_ade6 0.499 acc_lane 0.969 acc_lead 0.984 acc_v3 0.828 acc_v6 0.672
+ep 21 it 200 loss 1.392 ade 0.625 fde 1.162 ego_ade6 0.433 acc_lane 0.891 acc_lead 0.922 acc_v3 0.844 acc_v6 0.812
+ep 21 it 300 loss 1.487 ade 0.634 fde 1.178 ego_ade6 0.436 acc_lane 0.938 acc_lead 0.984 acc_v3 0.797 acc_v6 0.734
+== ep 21 val ADE@6s gt-dec 0.697 own-dec 1.559 (54s)
+ep 22 it 0 loss 1.468 ade 0.629 fde 1.109 ego_ade6 0.548 acc_lane 0.938 acc_lead 0.969 acc_v3 0.812 acc_v6 0.719
+ep 22 it 100 loss 1.468 ade 0.602 fde 1.116 ego_ade6 0.501 acc_lane 0.922 acc_lead 0.984 acc_v3 0.891 acc_v6 0.672
+ep 22 it 200 loss 1.556 ade 0.603 fde 1.103 ego_ade6 0.510 acc_lane 0.906 acc_lead 0.984 acc_v3 0.844 acc_v6 0.734
+ep 22 it 300 loss 1.373 ade 0.597 fde 1.064 ego_ade6 0.387 acc_lane 0.938 acc_lead 0.953 acc_v3 0.891 acc_v6 0.719
+== ep 22 val ADE@6s gt-dec 0.689 own-dec 1.573 (45s)
+ep 23 it 0 loss 1.184 ade 0.584 fde 1.071 ego_ade6 0.485 acc_lane 0.984 acc_lead 0.969 acc_v3 0.938 acc_v6 0.844
+ep 23 it 100 loss 1.268 ade 0.613 fde 1.095 ego_ade6 0.388 acc_lane 0.953 acc_lead 0.969 acc_v3 0.828 acc_v6 0.734
+ep 23 it 200 loss 1.071 ade 0.523 fde 0.915 ego_ade6 0.363 acc_lane 0.953 acc_lead 0.984 acc_v3 0.875 acc_v6 0.828
+ep 23 it 300 loss 1.236 ade 0.622 fde 1.127 ego_ade6 0.357 acc_lane 0.984 acc_lead 1.000 acc_v3 0.859 acc_v6 0.719
+== ep 23 val ADE@6s gt-dec 0.689 own-dec 1.577 (45s)
+ep 24 it 0 loss 1.136 ade 0.581 fde 1.025 ego_ade6 0.325 acc_lane 0.969 acc_lead 1.000 acc_v3 0.891 acc_v6 0.719
+ep 24 it 100 loss 1.215 ade 0.604 fde 1.082 ego_ade6 0.402 acc_lane 0.953 acc_lead 1.000 acc_v3 0.922 acc_v6 0.797
+ep 24 it 200 loss 1.212 ade 0.648 fde 1.194 ego_ade6 0.402 acc_lane 0.984 acc_lead 1.000 acc_v3 0.844 acc_v6 0.812
+ep 24 it 300 loss 1.427 ade 0.620 fde 1.137 ego_ade6 0.468 acc_lane 0.969 acc_lead 0.953 acc_v3 0.875 acc_v6 0.672
+== ep 24 val ADE@6s gt-dec 0.692 own-dec 1.558 (47s)
+ep 25 it 0 loss 1.231 ade 0.649 fde 1.208 ego_ade6 0.406 acc_lane 1.000 acc_lead 1.000 acc_v3 0.891 acc_v6 0.797
+ep 25 it 100 loss 1.034 ade 0.553 fde 1.023 ego_ade6 0.351 acc_lane 0.953 acc_lead 0.969 acc_v3 0.922 acc_v6 0.859
+ep 25 it 200 loss 1.083 ade 0.579 fde 1.004 ego_ade6 0.350 acc_lane 0.969 acc_lead 0.969 acc_v3 0.859 acc_v6 0.875
+ep 25 it 300 loss 1.321 ade 0.558 fde 1.012 ego_ade6 0.454 acc_lane 0.922 acc_lead 0.984 acc_v3 0.828 acc_v6 0.781
+== ep 25 val ADE@6s gt-dec 0.686 own-dec 1.571 (55s)
+ep 26 it 0 loss 1.248 ade 0.664 fde 1.238 ego_ade6 0.383 acc_lane 1.000 acc_lead 0.953 acc_v3 0.969 acc_v6 0.734
+ep 26 it 100 loss 1.369 ade 0.612 fde 1.124 ego_ade6 0.461 acc_lane 0.969 acc_lead 0.984 acc_v3 0.812 acc_v6 0.766
+ep 26 it 200 loss 1.115 ade 0.573 fde 1.033 ego_ade6 0.329 acc_lane 0.984 acc_lead 0.984 acc_v3 0.812 acc_v6 0.750
+ep 26 it 300 loss 1.200 ade 0.696 fde 1.278 ego_ade6 0.373 acc_lane 1.000 acc_lead 0.953 acc_v3 0.906 acc_v6 0.828
+== ep 26 val ADE@6s gt-dec 0.682 own-dec 1.566 (45s)
+ep 27 it 0 loss 1.111 ade 0.593 fde 1.083 ego_ade6 0.367 acc_lane 0.984 acc_lead 0.953 acc_v3 0.922 acc_v6 0.734
+ep 27 it 100 loss 1.151 ade 0.610 fde 1.115 ego_ade6 0.347 acc_lane 0.969 acc_lead 0.984 acc_v3 0.969 acc_v6 0.734
+ep 27 it 200 loss 1.364 ade 0.707 fde 1.299 ego_ade6 0.375 acc_lane 0.953 acc_lead 0.969 acc_v3 0.828 acc_v6 0.797
+ep 27 it 300 loss 1.268 ade 0.654 fde 1.171 ego_ade6 0.393 acc_lane 1.000 acc_lead 0.969 acc_v3 0.938 acc_v6 0.828
+== ep 27 val ADE@6s gt-dec 0.681 own-dec 1.565 (45s)
+ep 28 it 0 loss 1.036 ade 0.534 fde 0.979 ego_ade6 0.313 acc_lane 0.969 acc_lead 1.000 acc_v3 0.906 acc_v6 0.844
+ep 28 it 100 loss 1.264 ade 0.672 fde 1.276 ego_ade6 0.367 acc_lane 0.984 acc_lead 1.000 acc_v3 0.891 acc_v6 0.734
+ep 28 it 200 loss 1.184 ade 0.622 fde 1.132 ego_ade6 0.387 acc_lane 1.000 acc_lead 0.984 acc_v3 0.969 acc_v6 0.797
+ep 28 it 300 loss 1.020 ade 0.579 fde 1.116 ego_ade6 0.336 acc_lane 0.953 acc_lead 1.000 acc_v3 0.953 acc_v6 0.812
+== ep 28 val ADE@6s gt-dec 0.682 own-dec 1.554 (45s)
+ep 29 it 0 loss 0.987 ade 0.512 fde 0.933 ego_ade6 0.352 acc_lane 1.000 acc_lead 0.969 acc_v3 0.938 acc_v6 0.734
+ep 29 it 100 loss 0.953 ade 0.525 fde 0.971 ego_ade6 0.298 acc_lane 0.984 acc_lead 0.984 acc_v3 0.938 acc_v6 0.859
+ep 29 it 200 loss 1.005 ade 0.581 fde 1.012 ego_ade6 0.346 acc_lane 0.984 acc_lead 0.969 acc_v3 0.922 acc_v6 0.969
+ep 29 it 300 loss 1.028 ade 0.557 fde 0.984 ego_ade6 0.390 acc_lane 1.000 acc_lead 1.000 acc_v3 0.969 acc_v6 0.844
+== ep 29 val ADE@6s gt-dec 0.682 own-dec 1.556 (56s)
+gt {"ADE@6s": 0.7138035297393799, "FDE@6s": 1.4535408020019531, "ADE@3s": 0.30980005860328674, "FDE@3s": 0.6240363121032715, "FVR": 0.14375, "FVR_GT": 0.11041666666666666, "Collision": 0.017} {'lane': 1.0, 'lead': 1.0, 'v3': 1.0, 'v6': 1.0}
+own {"ADE@6s": 1.5410760641098022, "FDE@6s": 3.8137500286102295, "ADE@3s": 0.47315219044685364, "FDE@3s": 1.0913041830062866, "FVR": 0.13970833333333332, "FVR_GT": 0.11041666666666666, "Collision": 0.035} {'lane': 0.864, 'lead': 0.9155, 'v3': 0.7205, 'v6': 0.598}

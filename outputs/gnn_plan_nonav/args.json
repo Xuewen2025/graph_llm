@@ -1,0 +1,15 @@
+{
+ "cache": "data/cache",
+ "out": "outputs/gnn_plan_nonav",
+ "init": "outputs/predictor.pt",
+ "epochs": 30,
+ "bs": 64,
+ "lr": 0.001,
+ "w_ego": 1.0,
+ "w_aux": 1.0,
+ "no_nav": true,
+ "no_fut": false,
+ "drop_etypes": [],
+ "workers": 7,
+ "max_train": 0
+}

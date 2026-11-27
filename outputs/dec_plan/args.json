@@ -1,0 +1,14 @@
+{
+ "cache": "data/cache",
+ "out": "outputs/dec_plan",
+ "epochs": 30,
+ "bs": 64,
+ "lr": 0.001,
+ "w_dec": 0.5,
+ "w_aux": 1.0,
+ "p_own": 0.0,
+ "workers": 6,
+ "max_train": 0,
+ "eval_only": false,
+ "llm_dec": null
+}

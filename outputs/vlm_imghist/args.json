@@ -1,0 +1,18 @@
+{
+ "variant": "imghist",
+ "vlm": "Qwen/Qwen2.5-VL-3B-Instruct",
+ "cache": "data/cache",
+ "out": "outputs/vlm_imghist",
+ "epochs": 2.0,
+ "bs": 4,
+ "accum": 4,
+ "lr": 0.0002,
+ "lr_merger": 2e-05,
+ "lora_r": 16,
+ "max_train": 0,
+ "max_val": 0,
+ "eval_bs": 32,
+ "grad_ckpt": false,
+ "eval_only": false,
+ "workers": 6
+}

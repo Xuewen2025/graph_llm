@@ -4,7 +4,8 @@
 #   git clone git@github.com:Xuewen2025/graph_llm.git sage_drive && cd sage_drive && bash scripts/restore.sh
 #
 # What is in the repo: code, CoT labels (data/cache/train_cot.jsonl, paid API calls), FVR thresholds,
-# predictor checkpoints (outputs/predictor*.pt), LoRA checkpoints of raw / fut / node (0.6B), all eval results/logs.
+# predictor checkpoints (outputs/predictor*.pt, outputs/xcity/predictor.pt), LoRA checkpoints of the 0.6B LLMs (raw / fut / node /
+# dec / instr / xcity fut), all GNN planner checkpoints, all eval results/logs. NOT in the repo: VLM checkpoints (>100 MB).
 # What this script rebuilds: venv, AV2 download (exact same 22k scenarios), scene cache, predicted futures,
 # prompt records, node maps, and the no-agent-agent-edge cache used by experiment B.
 set -e
@@ -40,7 +41,23 @@ for s in train val; do
   [ -f $C2/${s}_records.jsonl ] || $PY scripts/build_records.py --split $s --cache $C2
 done
 
-# 5. sanity check: re-evaluate the uploaded best text model on 200 val scenarios (expect ADE@6s close to 1.78)
+# 5. derived data for the later experiments (all deterministic, CPU only)
+for s in train val; do
+  [ -f data/cache/${s}_dec.jsonl ] || $PY scripts/build_decisions.py --split $s           # P2 decision labels
+  [ -f data/cache/${s}_instr.jsonl ] || $PY scripts/build_instructions.py --split $s      # D instructions
+  [ -d data/cache/bev/$s ] || $PY scripts/render_bev.py --split $s                       # Exp 1 BEV rasters
+done
+# cross-city split (A2): data/cache/{train,val}_city.json are in the repo; predictor trained on source cities too
+if [ ! -f data/cache_xcity/val_pred.pkl ]; then
+  $PY scripts/make_xcity.py --hold pittsburgh
+  for s in train val; do
+    $PY scripts/predict_future.py --split $s --cache data/cache_xcity --ckpt outputs/xcity/predictor.pt
+    $PY scripts/build_records.py --split $s --cache data/cache_xcity
+  done
+fi
+# (D only) instruction embeddings need the GPU: python scripts/embed_instructions.py --split train|val
+
+# 6. sanity check: re-evaluate the uploaded best text model on 200 val scenarios (expect ADE@6s close to 1.50 on these 200; 1.78 is the full 2000-scene number)
 CUDA_VISIBLE_DEVICES=0 $PY scripts/evaluate.py --variant fut --ckpt outputs/llm_fut/final.pt --out outputs/restore_check \
   --max 200 | grep -A2 '"text"' || true
 echo

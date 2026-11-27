@@ -1,0 +1,219 @@
+ep 0 it 0 loss 3.968 ade 0.553 fde 1.007 ego_ade6 3.688
+== ep 0 val ego ADE@6s 3.015 (12s)
+ep 1 it 0 loss 3.029 ade 0.542 fde 0.981 ego_ade6 2.820
+== ep 1 val ego ADE@6s 2.224 (9s)
+ep 2 it 0 loss 2.798 ade 0.552 fde 1.009 ego_ade6 2.578
+== ep 2 val ego ADE@6s 2.104 (9s)
+ep 3 it 0 loss 2.270 ade 0.663 fde 1.164 ego_ade6 1.915
+== ep 3 val ego ADE@6s 2.087 (8s)
+ep 4 it 0 loss 1.931 ade 0.610 fde 1.070 ego_ade6 1.671
+== ep 4 val ego ADE@6s 2.124 (12s)
+ep 5 it 0 loss 2.250 ade 0.564 fde 1.050 ego_ade6 2.044
+== ep 5 val ego ADE@6s 2.178 (9s)
+ep 6 it 0 loss 2.141 ade 0.627 fde 1.124 ego_ade6 1.884
+== ep 6 val ego ADE@6s 2.096 (12s)
+ep 7 it 0 loss 2.076 ade 0.648 fde 1.165 ego_ade6 1.826
+== ep 7 val ego ADE@6s 2.294 (25s)
+ep 8 it 0 loss 2.175 ade 0.625 fde 1.129 ego_ade6 1.915
+== ep 8 val ego ADE@6s 1.978 (11s)
+ep 9 it 0 loss 1.929 ade 0.635 fde 1.081 ego_ade6 1.641
+== ep 9 val ego ADE@6s 2.056 (8s)
+ep 10 it 0 loss 1.957 ade 0.586 fde 1.090 ego_ade6 1.700
+== ep 10 val ego ADE@6s 2.157 (15s)
+ep 11 it 0 loss 2.280 ade 0.626 fde 1.140 ego_ade6 2.046
+== ep 11 val ego ADE@6s 2.130 (9s)
+ep 12 it 0 loss 1.837 ade 0.691 fde 1.256 ego_ade6 1.542
+== ep 12 val ego ADE@6s 1.964 (10s)
+ep 13 it 0 loss 1.733 ade 0.669 fde 1.187 ego_ade6 1.421
+== ep 13 val ego ADE@6s 1.968 (8s)
+ep 14 it 0 loss 1.523 ade 0.585 fde 1.058 ego_ade6 1.296
+== ep 14 val ego ADE@6s 1.968 (8s)
+ep 15 it 0 loss 1.489 ade 0.611 fde 1.109 ego_ade6 1.200
+== ep 15 val ego ADE@6s 2.089 (8s)
+ep 16 it 0 loss 1.400 ade 0.583 fde 0.989 ego_ade6 1.256
+== ep 16 val ego ADE@6s 1.977 (8s)
+ep 17 it 0 loss 1.531 ade 0.596 fde 1.058 ego_ade6 1.296
+== ep 17 val ego ADE@6s 1.941 (9s)
+ep 18 it 0 loss 1.511 ade 0.583 fde 1.063 ego_ade6 1.361
+== ep 18 val ego ADE@6s 1.905 (8s)
+ep 19 it 0 loss 1.561 ade 0.650 fde 1.142 ego_ade6 1.229
+== ep 19 val ego ADE@6s 1.921 (9s)
+ep 20 it 0 loss 1.351 ade 0.604 fde 1.117 ego_ade6 1.124
+== ep 20 val ego ADE@6s 1.976 (8s)
+ep 21 it 0 loss 1.134 ade 0.578 fde 1.002 ego_ade6 0.898
+== ep 21 val ego ADE@6s 1.950 (8s)
+ep 22 it 0 loss 1.266 ade 0.615 fde 1.156 ego_ade6 1.048
+== ep 22 val ego ADE@6s 1.951 (8s)
+ep 23 it 0 loss 1.015 ade 0.544 fde 0.995 ego_ade6 0.828
+== ep 23 val ego ADE@6s 1.899 (9s)
+ep 24 it 0 loss 1.208 ade 0.612 fde 1.036 ego_ade6 0.996
+== ep 24 val ego ADE@6s 1.928 (8s)
+ep 25 it 0 loss 1.352 ade 0.590 fde 1.010 ego_ade6 1.133
+== ep 25 val ego ADE@6s 1.944 (8s)
+ep 26 it 0 loss 1.061 ade 0.543 fde 0.968 ego_ade6 0.907
+== ep 26 val ego ADE@6s 1.895 (8s)
+ep 27 it 0 loss 0.998 ade 0.648 fde 1.146 ego_ade6 0.730
+== ep 27 val ego ADE@6s 1.908 (9s)
+ep 28 it 0 loss 0.969 ade 0.534 fde 0.949 ego_ade6 0.798
+== ep 28 val ego ADE@6s 1.929 (9s)
+ep 29 it 0 loss 1.083 ade 0.577 fde 1.025 ego_ade6 0.906
+== ep 29 val ego ADE@6s 1.925 (9s)
+ep 30 it 0 loss 0.995 ade 0.556 fde 0.959 ego_ade6 0.792
+== ep 30 val ego ADE@6s 1.938 (8s)
+ep 31 it 0 loss 0.943 ade 0.545 fde 0.964 ego_ade6 0.792
+== ep 31 val ego ADE@6s 1.922 (8s)
+ep 32 it 0 loss 0.964 ade 0.588 fde 1.067 ego_ade6 0.717
+== ep 32 val ego ADE@6s 1.907 (8s)
+ep 33 it 0 loss 0.989 ade 0.590 fde 1.014 ego_ade6 0.767
+== ep 33 val ego ADE@6s 1.873 (8s)
+ep 34 it 0 loss 0.932 ade 0.565 fde 0.982 ego_ade6 0.731
+== ep 34 val ego ADE@6s 1.926 (8s)
+ep 35 it 0 loss 0.939 ade 0.527 fde 0.845 ego_ade6 0.824
+== ep 35 val ego ADE@6s 1.896 (8s)
+ep 36 it 0 loss 0.806 ade 0.518 fde 0.894 ego_ade6 0.647
+== ep 36 val ego ADE@6s 1.886 (9s)
+ep 37 it 0 loss 0.723 ade 0.509 fde 0.884 ego_ade6 0.571
+== ep 37 val ego ADE@6s 1.888 (8s)
+ep 38 it 0 loss 0.736 ade 0.527 fde 0.908 ego_ade6 0.601
+== ep 38 val ego ADE@6s 1.894 (8s)
+ep 39 it 0 loss 0.640 ade 0.529 fde 0.940 ego_ade6 0.462
+== ep 39 val ego ADE@6s 1.895 (8s)
+ep 40 it 0 loss 0.935 ade 0.583 fde 1.009 ego_ade6 0.735
+== ep 40 val ego ADE@6s 1.921 (8s)
+ep 41 it 0 loss 0.641 ade 0.479 fde 0.792 ego_ade6 0.549
+== ep 41 val ego ADE@6s 1.899 (8s)
+ep 42 it 0 loss 0.802 ade 0.539 fde 0.922 ego_ade6 0.628
+== ep 42 val ego ADE@6s 1.867 (8s)
+ep 43 it 0 loss 0.852 ade 0.526 fde 0.890 ego_ade6 0.716
+== ep 43 val ego ADE@6s 1.874 (8s)
+ep 44 it 0 loss 0.679 ade 0.506 fde 0.851 ego_ade6 0.558
+== ep 44 val ego ADE@6s 1.876 (8s)
+ep 45 it 0 loss 0.717 ade 0.465 fde 0.796 ego_ade6 0.652
+== ep 45 val ego ADE@6s 1.878 (8s)
+ep 46 it 0 loss 0.704 ade 0.552 fde 0.906 ego_ade6 0.513
+== ep 46 val ego ADE@6s 1.885 (8s)
+ep 47 it 0 loss 0.660 ade 0.473 fde 0.826 ego_ade6 0.541
+== ep 47 val ego ADE@6s 1.859 (8s)
+ep 48 it 0 loss 0.664 ade 0.530 fde 0.896 ego_ade6 0.504
+== ep 48 val ego ADE@6s 1.870 (9s)
+ep 49 it 0 loss 0.617 ade 0.488 fde 0.811 ego_ade6 0.528
+== ep 49 val ego ADE@6s 1.881 (8s)
+ep 50 it 0 loss 0.486 ade 0.414 fde 0.728 ego_ade6 0.406
+== ep 50 val ego ADE@6s 1.871 (8s)
+ep 51 it 0 loss 0.508 ade 0.431 fde 0.760 ego_ade6 0.458
+== ep 51 val ego ADE@6s 1.843 (8s)
+ep 52 it 0 loss 0.545 ade 0.509 fde 0.856 ego_ade6 0.360
+== ep 52 val ego ADE@6s 1.864 (8s)
+ep 53 it 0 loss 0.584 ade 0.494 fde 0.833 ego_ade6 0.430
+== ep 53 val ego ADE@6s 1.868 (9s)
+ep 54 it 0 loss 0.579 ade 0.457 fde 0.786 ego_ade6 0.494
+== ep 54 val ego ADE@6s 1.849 (8s)
+ep 55 it 0 loss 0.531 ade 0.514 fde 0.888 ego_ade6 0.349
+== ep 55 val ego ADE@6s 1.842 (8s)
+ep 56 it 0 loss 0.515 ade 0.484 fde 0.788 ego_ade6 0.389
+== ep 56 val ego ADE@6s 1.867 (8s)
+ep 57 it 0 loss 0.521 ade 0.437 fde 0.758 ego_ade6 0.414
+== ep 57 val ego ADE@6s 1.849 (8s)
+ep 58 it 0 loss 0.429 ade 0.427 fde 0.714 ego_ade6 0.351
+== ep 58 val ego ADE@6s 1.856 (8s)
+ep 59 it 0 loss 0.488 ade 0.461 fde 0.718 ego_ade6 0.368
+== ep 59 val ego ADE@6s 1.853 (9s)
+ep 60 it 0 loss 0.499 ade 0.472 fde 0.778 ego_ade6 0.384
+== ep 60 val ego ADE@6s 1.843 (9s)
+ep 61 it 0 loss 0.465 ade 0.450 fde 0.736 ego_ade6 0.374
+== ep 61 val ego ADE@6s 1.865 (9s)
+ep 62 it 0 loss 0.405 ade 0.418 fde 0.671 ego_ade6 0.336
+== ep 62 val ego ADE@6s 1.848 (9s)
+ep 63 it 0 loss 0.451 ade 0.465 fde 0.787 ego_ade6 0.334
+== ep 63 val ego ADE@6s 1.855 (8s)
+ep 64 it 0 loss 0.434 ade 0.437 fde 0.732 ego_ade6 0.350
+== ep 64 val ego ADE@6s 1.836 (8s)
+ep 65 it 0 loss 0.384 ade 0.431 fde 0.705 ego_ade6 0.287
+== ep 65 val ego ADE@6s 1.827 (9s)
+ep 66 it 0 loss 0.397 ade 0.434 fde 0.697 ego_ade6 0.303
+== ep 66 val ego ADE@6s 1.840 (9s)
+ep 67 it 0 loss 0.495 ade 0.497 fde 0.787 ego_ade6 0.331
+== ep 67 val ego ADE@6s 1.835 (8s)
+ep 68 it 0 loss 0.455 ade 0.501 fde 0.827 ego_ade6 0.282
+== ep 68 val ego ADE@6s 1.843 (8s)
+ep 69 it 0 loss 0.390 ade 0.426 fde 0.711 ego_ade6 0.309
+== ep 69 val ego ADE@6s 1.847 (9s)
+ep 70 it 0 loss 0.429 ade 0.451 fde 0.764 ego_ade6 0.311
+== ep 70 val ego ADE@6s 1.837 (8s)
+ep 71 it 0 loss 0.391 ade 0.450 fde 0.745 ego_ade6 0.265
+== ep 71 val ego ADE@6s 1.854 (9s)
+ep 72 it 0 loss 0.423 ade 0.450 fde 0.767 ego_ade6 0.275
+== ep 72 val ego ADE@6s 1.830 (9s)
+ep 73 it 0 loss 0.365 ade 0.437 fde 0.724 ego_ade6 0.237
+== ep 73 val ego ADE@6s 1.836 (8s)
+ep 74 it 0 loss 0.371 ade 0.428 fde 0.693 ego_ade6 0.245
+== ep 74 val ego ADE@6s 1.833 (8s)
+ep 75 it 0 loss 0.369 ade 0.404 fde 0.719 ego_ade6 0.288
+== ep 75 val ego ADE@6s 1.835 (9s)
+ep 76 it 0 loss 0.372 ade 0.429 fde 0.697 ego_ade6 0.229
+== ep 76 val ego ADE@6s 1.838 (8s)
+ep 77 it 0 loss 0.296 ade 0.364 fde 0.593 ego_ade6 0.213
+== ep 77 val ego ADE@6s 1.833 (9s)
+ep 78 it 0 loss 0.311 ade 0.378 fde 0.586 ego_ade6 0.207
+== ep 78 val ego ADE@6s 1.833 (9s)
+ep 79 it 0 loss 0.394 ade 0.461 fde 0.779 ego_ade6 0.233
+== ep 79 val ego ADE@6s 1.832 (8s)
+ep 80 it 0 loss 0.461 ade 0.434 fde 0.693 ego_ade6 0.342
+== ep 80 val ego ADE@6s 1.830 (8s)
+ep 81 it 0 loss 0.367 ade 0.421 fde 0.701 ego_ade6 0.227
+== ep 81 val ego ADE@6s 1.832 (8s)
+ep 82 it 0 loss 0.325 ade 0.396 fde 0.658 ego_ade6 0.239
+== ep 82 val ego ADE@6s 1.832 (8s)
+ep 83 it 0 loss 0.362 ade 0.427 fde 0.702 ego_ade6 0.213
+== ep 83 val ego ADE@6s 1.835 (9s)
+ep 84 it 0 loss 0.348 ade 0.413 fde 0.657 ego_ade6 0.235
+== ep 84 val ego ADE@6s 1.829 (9s)
+ep 85 it 0 loss 0.353 ade 0.430 fde 0.719 ego_ade6 0.219
+== ep 85 val ego ADE@6s 1.829 (8s)
+ep 86 it 0 loss 0.366 ade 0.446 fde 0.711 ego_ade6 0.214
+== ep 86 val ego ADE@6s 1.828 (8s)
+ep 87 it 0 loss 0.351 ade 0.434 fde 0.714 ego_ade6 0.201
+== ep 87 val ego ADE@6s 1.830 (8s)
+ep 88 it 0 loss 0.322 ade 0.410 fde 0.669 ego_ade6 0.192
+== ep 88 val ego ADE@6s 1.826 (9s)
+ep 89 it 0 loss 0.320 ade 0.409 fde 0.689 ego_ade6 0.213
+== ep 89 val ego ADE@6s 1.832 (9s)
+ep 90 it 0 loss 0.311 ade 0.401 fde 0.632 ego_ade6 0.187
+== ep 90 val ego ADE@6s 1.832 (9s)
+ep 91 it 0 loss 0.364 ade 0.459 fde 0.716 ego_ade6 0.198
+== ep 91 val ego ADE@6s 1.829 (8s)
+ep 92 it 0 loss 0.285 ade 0.369 fde 0.622 ego_ade6 0.202
+== ep 92 val ego ADE@6s 1.829 (8s)
+ep 93 it 0 loss 0.301 ade 0.383 fde 0.608 ego_ade6 0.189
+== ep 93 val ego ADE@6s 1.829 (8s)
+ep 94 it 0 loss 0.403 ade 0.472 fde 0.764 ego_ade6 0.209
+== ep 94 val ego ADE@6s 1.829 (9s)
+ep 95 it 0 loss 0.282 ade 0.372 fde 0.578 ego_ade6 0.193
+== ep 95 val ego ADE@6s 1.829 (9s)
+ep 96 it 0 loss 0.312 ade 0.408 fde 0.636 ego_ade6 0.212
+== ep 96 val ego ADE@6s 1.828 (9s)
+ep 97 it 0 loss 0.312 ade 0.400 fde 0.637 ego_ade6 0.213
+== ep 97 val ego ADE@6s 1.828 (8s)
+ep 98 it 0 loss 0.291 ade 0.377 fde 0.620 ego_ade6 0.220
+== ep 98 val ego ADE@6s 1.828 (8s)
+ep 99 it 0 loss 0.301 ade 0.382 fde 0.602 ego_ade6 0.198
+== ep 99 val ego ADE@6s 1.828 (8s)
+{
+ "variant": "gnn_planner",
+ "out": "outputs/gnn_plan_2k",
+ "n": 2000,
+ "thresholds": {
+  "a_max": 2.4620657658487737,
+  "alat_max": 0.6612434293400407,
+  "kappa_max": 0.02700847029181017
+ },
+ "text": {
+  "ADE@6s": 1.8264561891555786,
+  "FDE@6s": 4.475159645080566,
+  "ADE@3s": 0.5790233612060547,
+  "FDE@3s": 1.3115988969802856,
+  "FVR": 0.18716666666666668,
+  "FVR_GT": 0.11041666666666666,
+  "Collision": 0.0445
+ }
+}

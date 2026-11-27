@@ -1,0 +1,121 @@
+ep 0 it 0 loss 7.851 ade 6.254 fde 11.216
+ep 0 it 100 loss 3.207 ade 2.656 fde 4.613
+ep 0 it 200 loss 1.815 ade 1.733 fde 3.061
+== ep 0 val ADE@3s 1.279 FDE@3s 2.302  (31s)
+ep 1 it 0 loss 1.428 ade 1.405 fde 2.405
+ep 1 it 100 loss 1.193 ade 1.134 fde 2.090
+ep 1 it 200 loss 1.214 ade 1.254 fde 2.351
+== ep 1 val ADE@3s 0.966 FDE@3s 1.764  (35s)
+ep 2 it 0 loss 1.087 ade 1.038 fde 1.905
+ep 2 it 100 loss 0.803 ade 0.849 fde 1.655
+ep 2 it 200 loss 0.833 ade 0.890 fde 1.634
+== ep 2 val ADE@3s 0.785 FDE@3s 1.452  (38s)
+ep 3 it 0 loss 0.793 ade 0.815 fde 1.534
+ep 3 it 100 loss 0.719 ade 0.727 fde 1.298
+ep 3 it 200 loss 0.694 ade 0.758 fde 1.408
+== ep 3 val ADE@3s 0.820 FDE@3s 1.506  (32s)
+ep 4 it 0 loss 0.753 ade 0.836 fde 1.480
+ep 4 it 100 loss 0.781 ade 0.839 fde 1.486
+ep 4 it 200 loss 0.746 ade 0.826 fde 1.519
+== ep 4 val ADE@3s 0.708 FDE@3s 1.304  (35s)
+ep 5 it 0 loss 0.686 ade 0.751 fde 1.342
+ep 5 it 100 loss 0.722 ade 0.783 fde 1.444
+ep 5 it 200 loss 0.608 ade 0.674 fde 1.250
+== ep 5 val ADE@3s 0.724 FDE@3s 1.332  (41s)
+ep 6 it 0 loss 0.682 ade 0.738 fde 1.342
+ep 6 it 100 loss 0.582 ade 0.638 fde 1.145
+ep 6 it 200 loss 0.755 ade 0.774 fde 1.419
+== ep 6 val ADE@3s 0.726 FDE@3s 1.336  (42s)
+ep 7 it 0 loss 0.704 ade 0.774 fde 1.444
+ep 7 it 100 loss 0.680 ade 0.747 fde 1.371
+ep 7 it 200 loss 0.723 ade 0.782 fde 1.473
+== ep 7 val ADE@3s 0.688 FDE@3s 1.259  (33s)
+ep 8 it 0 loss 0.615 ade 0.682 fde 1.302
+ep 8 it 100 loss 0.697 ade 0.755 fde 1.416
+ep 8 it 200 loss 0.664 ade 0.719 fde 1.292
+== ep 8 val ADE@3s 0.675 FDE@3s 1.235  (40s)
+ep 9 it 0 loss 0.659 ade 0.708 fde 1.224
+ep 9 it 100 loss 0.648 ade 0.695 fde 1.272
+ep 9 it 200 loss 0.629 ade 0.709 fde 1.301
+== ep 9 val ADE@3s 0.668 FDE@3s 1.224  (55s)
+ep 10 it 0 loss 0.622 ade 0.681 fde 1.260
+ep 10 it 100 loss 0.628 ade 0.688 fde 1.265
+ep 10 it 200 loss 0.628 ade 0.673 fde 1.207
+== ep 10 val ADE@3s 0.680 FDE@3s 1.242  (52s)
+ep 11 it 0 loss 0.597 ade 0.680 fde 1.228
+ep 11 it 100 loss 0.681 ade 0.714 fde 1.336
+ep 11 it 200 loss 0.579 ade 0.636 fde 1.114
+== ep 11 val ADE@3s 0.665 FDE@3s 1.219  (52s)
+ep 12 it 0 loss 0.581 ade 0.675 fde 1.234
+ep 12 it 100 loss 0.652 ade 0.711 fde 1.311
+ep 12 it 200 loss 0.666 ade 0.737 fde 1.346
+== ep 12 val ADE@3s 0.648 FDE@3s 1.183  (53s)
+ep 13 it 0 loss 0.701 ade 0.749 fde 1.366
+ep 13 it 100 loss 0.532 ade 0.611 fde 1.180
+ep 13 it 200 loss 0.669 ade 0.719 fde 1.328
+== ep 13 val ADE@3s 0.626 FDE@3s 1.151  (53s)
+ep 14 it 0 loss 0.618 ade 0.688 fde 1.285
+ep 14 it 100 loss 0.574 ade 0.631 fde 1.167
+ep 14 it 200 loss 0.567 ade 0.607 fde 1.131
+== ep 14 val ADE@3s 0.655 FDE@3s 1.201  (52s)
+ep 15 it 0 loss 0.589 ade 0.656 fde 1.211
+ep 15 it 100 loss 0.586 ade 0.644 fde 1.160
+ep 15 it 200 loss 0.619 ade 0.669 fde 1.223
+== ep 15 val ADE@3s 0.624 FDE@3s 1.145  (52s)
+ep 16 it 0 loss 0.625 ade 0.681 fde 1.257
+ep 16 it 100 loss 0.486 ade 0.572 fde 1.038
+ep 16 it 200 loss 0.631 ade 0.700 fde 1.291
+== ep 16 val ADE@3s 0.647 FDE@3s 1.187  (52s)
+ep 17 it 0 loss 0.497 ade 0.598 fde 1.065
+ep 17 it 100 loss 0.593 ade 0.661 fde 1.248
+ep 17 it 200 loss 0.614 ade 0.664 fde 1.214
+== ep 17 val ADE@3s 0.627 FDE@3s 1.149  (52s)
+ep 18 it 0 loss 0.593 ade 0.663 fde 1.221
+ep 18 it 100 loss 0.474 ade 0.554 fde 0.967
+ep 18 it 200 loss 0.612 ade 0.675 fde 1.231
+== ep 18 val ADE@3s 0.606 FDE@3s 1.097  (52s)
+ep 19 it 0 loss 0.580 ade 0.656 fde 1.153
+ep 19 it 100 loss 0.670 ade 0.719 fde 1.318
+ep 19 it 200 loss 0.534 ade 0.614 fde 1.104
+== ep 19 val ADE@3s 0.605 FDE@3s 1.100  (51s)
+ep 20 it 0 loss 0.509 ade 0.581 fde 1.097
+ep 20 it 100 loss 0.548 ade 0.617 fde 1.116
+ep 20 it 200 loss 0.585 ade 0.652 fde 1.193
+== ep 20 val ADE@3s 0.599 FDE@3s 1.096  (51s)
+ep 21 it 0 loss 0.624 ade 0.655 fde 1.171
+ep 21 it 100 loss 0.484 ade 0.568 fde 0.993
+ep 21 it 200 loss 0.489 ade 0.559 fde 1.040
+== ep 21 val ADE@3s 0.600 FDE@3s 1.092  (51s)
+ep 22 it 0 loss 0.469 ade 0.553 fde 1.008
+ep 22 it 100 loss 0.640 ade 0.707 fde 1.246
+ep 22 it 200 loss 0.468 ade 0.548 fde 0.994
+== ep 22 val ADE@3s 0.594 FDE@3s 1.082  (51s)
+ep 23 it 0 loss 0.425 ade 0.520 fde 0.931
+ep 23 it 100 loss 0.518 ade 0.582 fde 1.068
+ep 23 it 200 loss 0.442 ade 0.526 fde 0.935
+== ep 23 val ADE@3s 0.593 FDE@3s 1.088  (51s)
+ep 24 it 0 loss 0.553 ade 0.625 fde 1.126
+ep 24 it 100 loss 0.439 ade 0.527 fde 0.965
+ep 24 it 200 loss 0.594 ade 0.674 fde 1.173
+== ep 24 val ADE@3s 0.593 FDE@3s 1.080  (51s)
+ep 25 it 0 loss 0.569 ade 0.629 fde 1.084
+ep 25 it 100 loss 0.488 ade 0.568 fde 1.005
+ep 25 it 200 loss 0.539 ade 0.624 fde 1.107
+== ep 25 val ADE@3s 0.587 FDE@3s 1.068  (52s)
+ep 26 it 0 loss 0.451 ade 0.536 fde 0.938
+ep 26 it 100 loss 0.527 ade 0.612 fde 1.107
+ep 26 it 200 loss 0.517 ade 0.587 fde 1.051
+== ep 26 val ADE@3s 0.585 FDE@3s 1.066  (53s)
+ep 27 it 0 loss 0.397 ade 0.494 fde 0.858
+ep 27 it 100 loss 0.459 ade 0.532 fde 0.968
+ep 27 it 200 loss 0.438 ade 0.526 fde 0.871
+== ep 27 val ADE@3s 0.586 FDE@3s 1.072  (53s)
+ep 28 it 0 loss 0.446 ade 0.552 fde 0.982
+ep 28 it 100 loss 0.590 ade 0.652 fde 1.169
+ep 28 it 200 loss 0.430 ade 0.503 fde 0.881
+== ep 28 val ADE@3s 0.584 FDE@3s 1.067  (52s)
+ep 29 it 0 loss 0.509 ade 0.590 fde 1.081
+ep 29 it 100 loss 0.391 ade 0.478 fde 0.856
+ep 29 it 200 loss 0.444 ade 0.536 fde 0.964
+== ep 29 val ADE@3s 0.584 FDE@3s 1.066  (52s)
+best val ADE 0.5841214942563441

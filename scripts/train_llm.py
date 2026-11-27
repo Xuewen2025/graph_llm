@@ -36,6 +36,15 @@ def build_loader(a, split, model, bs, shuffle, max_n=0, ddp=False):
         cot = {r["sid"]: r["reasoning"] for r in load_jsonl(f"{a.cache}/{split}_cot.jsonl")}
         if split == "train":
             recs = [r for r in recs if r["sid"] in cot]
+    if v.get("dec"):
+        dec = {r["sid"]: r["text"] for r in load_jsonl(f"{a.cache}/{split}_dec.jsonl")}
+        for r in recs:
+            r["dec_text"] = dec[r["sid"]]
+    if v.get("instr"):
+        ins = {r["sid"]: r for r in load_jsonl(f"{a.cache}/{split}_instr.jsonl")}
+        key = "seen" if split == "train" else getattr(a, "instr_set", "seen")
+        for r in recs:
+            r["instr_list"] = ins[r["sid"]][key]
     if max_n:
         recs = recs[:max_n]
     scenes, preds = [], {}
@@ -71,6 +80,7 @@ def main():
     ap.add_argument("--q_tokens", type=int, default=8)
     ap.add_argument("--train_graph", action="store_true", help="also fine-tune the graph encoder")
     ap.add_argument("--max_train", type=int, default=0)
+    ap.add_argument("--init", default=None, help="initialise trainable weights (e.g. LoRA) from a checkpoint")
     ap.add_argument("--grad_ckpt", action="store_true", help="gradient checkpointing (less memory)")
     a = ap.parse_args()
     a.out = a.out or f"outputs/llm_{a.variant}"
@@ -87,6 +97,11 @@ def main():
     torch.manual_seed(0)
 
     model = SageLLM(a.llm, a.variant, lora_r=a.lora_r, q_tokens=a.q_tokens, train_graph=a.train_graph).cuda()
+    if a.init:
+        r = model.load_state_dict(torch.load(a.init, map_location="cuda"), strict=False)
+        assert not r.unexpected_keys, r.unexpected_keys
+        if main_proc:
+            print("init from", a.init, flush=True)
     if a.grad_ckpt:
         model.llm.base_model.model.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
     dl = build_loader(a, "train", model, a.bs, True, a.max_train, ddp)

@@ -11,6 +11,7 @@ Input sequence (full model):
   textual trajectory, so the head is conditioned on the CoT but cannot copy the teacher-forced
   trajectory text during training (no train/test mismatch).
 """
+import random
 import re
 
 import numpy as np
@@ -36,7 +37,14 @@ VARIANTS = {
     # node-level graph tokens: the GNN embedding of each named node (EGO, A_k, L_k, X_k) is inserted right
     # after its name in the prompt; graph encoder fine-tuned end-to-end
     "node": dict(text="fut",  cot=False, graph_tokens=True,  head=False, node=True, train_graph=True),
+    # P2: LLM outputs only a discrete decision pointing at prompt nodes (sage/decision.py); a graph decoder
+    # turns it into a trajectory
+    "dec":  dict(text="fut",  cot=False, graph_tokens=False, head=False, dec=True),
+    # D: decision conditioned on a natural-language instruction (sage/instruct.py)
+    "instr": dict(text="fut", cot=False, graph_tokens=False, head=False, dec=True, instr=True),
 }
+DEC_INSTR = (" Instead of waypoints, output only the driving decision: the lane (L_k) the ego will be on in 6 s, "
+             "the agent (A_k) it must follow or yield to on its path, and its speed at 3 s and 6 s.")
 NODE_TOKEN = "<|vision_pad|>"  # placeholder id in the prompt, replaced by the node embedding
 LORA_TARGETS = ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
 TRAJ_SCALE = 5.0  # per-step displacement scale (m / 0.5 s)
@@ -46,6 +54,12 @@ def make_texts(rec, reasoning, v):
     prompt = build_prompt(rec[v["text"]], v["cot"], fut=v["text"] == "fut")
     reason = f"Reasoning:\n{reasoning}\n" if v["cot"] else ""
     traj = f"Trajectory: {fmt_traj(np.array(rec['gt']))}"
+    if v.get("dec"):
+        prompt = prompt.replace("\n\n", DEC_INSTR + "\n\n", 1)
+        traj = rec["dec_text"]
+    if v.get("instr"):
+        ins = random.choice(rec["instr_list"])
+        prompt = prompt.replace("\n\n### Answer:\n", f"\nInstruction: {ins}\n\n### Answer:\n")
     return prompt, reason, traj
 
 
@@ -230,7 +244,7 @@ class SageLLM(nn.Module):
     def plan(self, b, max_new_tokens=None):
         """Returns generated texts and (if head) regressed trajectories [B,N,2]."""
         if max_new_tokens is None:
-            max_new_tokens = 420 if self.v["cot"] else 160
+            max_new_tokens = 420 if self.v["cot"] else (40 if self.v.get("dec") else 160)
         z, nodes = self.graph_tokens(b) if self.v["graph_tokens"] else (None, None)
         emb, att, _, _ = self.assemble(b, (), z, left_pad=True, nodes=nodes)
         gen = self.llm.generate(inputs_embeds=emb, attention_mask=att, max_new_tokens=max_new_tokens,

@@ -1,0 +1,169 @@
+ep 0 it 0 loss 4.517 ade 0.566 fde 1.006 ego_ade6 4.028
+ep 0 it 100 loss 2.926 ade 0.579 fde 1.053 ego_ade6 2.624
+ep 0 it 200 loss 2.287 ade 0.587 fde 1.066 ego_ade6 2.106
+ep 0 it 300 loss 2.520 ade 0.573 fde 1.065 ego_ade6 2.259
+== ep 0 val ego ADE@6s 2.046 (31s)
+ep 1 it 0 loss 2.336 ade 0.574 fde 1.042 ego_ade6 2.051
+ep 1 it 100 loss 2.301 ade 0.546 fde 0.969 ego_ade6 2.044
+ep 1 it 200 loss 2.183 ade 0.665 fde 1.229 ego_ade6 1.855
+ep 1 it 300 loss 2.160 ade 0.715 fde 1.328 ego_ade6 1.677
+== ep 1 val ego ADE@6s 1.976 (25s)
+ep 2 it 0 loss 1.988 ade 0.644 fde 1.207 ego_ade6 1.597
+ep 2 it 100 loss 1.722 ade 0.626 fde 1.105 ego_ade6 1.383
+ep 2 it 200 loss 1.644 ade 0.659 fde 1.191 ego_ade6 1.279
+ep 2 it 300 loss 1.990 ade 0.659 fde 1.254 ego_ade6 1.653
+== ep 2 val ego ADE@6s 1.963 (25s)
+ep 3 it 0 loss 2.294 ade 0.709 fde 1.322 ego_ade6 1.879
+ep 3 it 100 loss 1.872 ade 0.681 fde 1.223 ego_ade6 1.537
+ep 3 it 200 loss 1.852 ade 0.654 fde 1.221 ego_ade6 1.530
+ep 3 it 300 loss 2.039 ade 0.672 fde 1.210 ego_ade6 1.651
+== ep 3 val ego ADE@6s 1.870 (24s)
+ep 4 it 0 loss 1.957 ade 0.655 fde 1.188 ego_ade6 1.592
+ep 4 it 100 loss 2.345 ade 0.682 fde 1.248 ego_ade6 1.909
+ep 4 it 200 loss 2.013 ade 0.662 fde 1.185 ego_ade6 1.613
+ep 4 it 300 loss 1.674 ade 0.616 fde 1.149 ego_ade6 1.410
+== ep 4 val ego ADE@6s 1.660 (24s)
+ep 5 it 0 loss 1.851 ade 0.673 fde 1.227 ego_ade6 1.445
+ep 5 it 100 loss 1.543 ade 0.653 fde 1.215 ego_ade6 1.221
+ep 5 it 200 loss 1.937 ade 0.599 fde 1.052 ego_ade6 1.626
+ep 5 it 300 loss 1.865 ade 0.544 fde 0.973 ego_ade6 1.650
+== ep 5 val ego ADE@6s 1.707 (24s)
+ep 6 it 0 loss 1.781 ade 0.663 fde 1.176 ego_ade6 1.506
+ep 6 it 100 loss 1.616 ade 0.640 fde 1.211 ego_ade6 1.275
+ep 6 it 200 loss 2.035 ade 0.639 fde 1.125 ego_ade6 1.766
+ep 6 it 300 loss 1.762 ade 0.593 fde 1.069 ego_ade6 1.538
+== ep 6 val ego ADE@6s 1.731 (24s)
+ep 7 it 0 loss 1.881 ade 0.626 fde 1.127 ego_ade6 1.592
+ep 7 it 100 loss 1.543 ade 0.678 fde 1.209 ego_ade6 1.200
+ep 7 it 200 loss 1.689 ade 0.600 fde 1.063 ego_ade6 1.422
+ep 7 it 300 loss 1.743 ade 0.589 fde 1.092 ego_ade6 1.475
+== ep 7 val ego ADE@6s 1.648 (24s)
+ep 8 it 0 loss 1.528 ade 0.641 fde 1.173 ego_ade6 1.147
+ep 8 it 100 loss 2.066 ade 0.600 fde 1.087 ego_ade6 1.779
+ep 8 it 200 loss 1.435 ade 0.641 fde 1.138 ego_ade6 1.100
+ep 8 it 300 loss 2.118 ade 0.699 fde 1.297 ego_ade6 1.774
+== ep 8 val ego ADE@6s 1.634 (25s)
+ep 9 it 0 loss 1.683 ade 0.639 fde 1.087 ego_ade6 1.371
+ep 9 it 100 loss 2.030 ade 0.615 fde 1.094 ego_ade6 1.738
+ep 9 it 200 loss 1.744 ade 0.690 fde 1.237 ego_ade6 1.389
+ep 9 it 300 loss 2.090 ade 0.630 fde 1.171 ego_ade6 1.780
+== ep 9 val ego ADE@6s 1.651 (24s)
+ep 10 it 0 loss 1.927 ade 0.612 fde 1.116 ego_ade6 1.628
+ep 10 it 100 loss 1.525 ade 0.638 fde 1.138 ego_ade6 1.213
+ep 10 it 200 loss 1.429 ade 0.667 fde 1.263 ego_ade6 1.089
+ep 10 it 300 loss 2.063 ade 0.615 fde 1.127 ego_ade6 1.739
+== ep 10 val ego ADE@6s 1.705 (25s)
+ep 11 it 0 loss 1.460 ade 0.665 fde 1.206 ego_ade6 1.114
+ep 11 it 100 loss 2.113 ade 0.625 fde 1.124 ego_ade6 1.806
+ep 11 it 200 loss 1.730 ade 0.600 fde 1.056 ego_ade6 1.492
+ep 11 it 300 loss 1.753 ade 0.597 fde 1.133 ego_ade6 1.487
+== ep 11 val ego ADE@6s 1.612 (25s)
+ep 12 it 0 loss 2.071 ade 0.609 fde 1.135 ego_ade6 1.848
+ep 12 it 100 loss 1.671 ade 0.627 fde 1.110 ego_ade6 1.357
+ep 12 it 200 loss 1.720 ade 0.604 fde 1.033 ego_ade6 1.479
+ep 12 it 300 loss 1.702 ade 0.614 fde 1.139 ego_ade6 1.426
+== ep 12 val ego ADE@6s 1.648 (24s)
+ep 13 it 0 loss 1.816 ade 0.635 fde 1.208 ego_ade6 1.531
+ep 13 it 100 loss 1.702 ade 0.626 fde 1.153 ego_ade6 1.399
+ep 13 it 200 loss 1.657 ade 0.613 fde 1.113 ego_ade6 1.386
+ep 13 it 300 loss 1.401 ade 0.574 fde 1.053 ego_ade6 1.158
+== ep 13 val ego ADE@6s 1.600 (24s)
+ep 14 it 0 loss 1.985 ade 0.610 fde 1.133 ego_ade6 1.684
+ep 14 it 100 loss 1.484 ade 0.616 fde 1.161 ego_ade6 1.203
+ep 14 it 200 loss 1.702 ade 0.644 fde 1.145 ego_ade6 1.353
+ep 14 it 300 loss 1.495 ade 0.570 fde 1.062 ego_ade6 1.244
+== ep 14 val ego ADE@6s 1.568 (24s)
+ep 15 it 0 loss 1.450 ade 0.545 fde 0.975 ego_ade6 1.282
+ep 15 it 100 loss 1.241 ade 0.570 fde 1.057 ego_ade6 0.977
+ep 15 it 200 loss 1.648 ade 0.640 fde 1.200 ego_ade6 1.322
+ep 15 it 300 loss 1.347 ade 0.588 fde 1.087 ego_ade6 1.071
+== ep 15 val ego ADE@6s 1.545 (25s)
+ep 16 it 0 loss 1.313 ade 0.599 fde 1.118 ego_ade6 1.049
+ep 16 it 100 loss 1.193 ade 0.545 fde 0.984 ego_ade6 1.015
+ep 16 it 200 loss 1.566 ade 0.616 fde 1.108 ego_ade6 1.314
+ep 16 it 300 loss 1.554 ade 0.641 fde 1.205 ego_ade6 1.259
+== ep 16 val ego ADE@6s 1.562 (25s)
+ep 17 it 0 loss 1.062 ade 0.607 fde 1.093 ego_ade6 0.771
+ep 17 it 100 loss 1.579 ade 0.650 fde 1.136 ego_ade6 1.223
+ep 17 it 200 loss 1.294 ade 0.644 fde 1.155 ego_ade6 0.966
+ep 17 it 300 loss 1.606 ade 0.539 fde 0.926 ego_ade6 1.416
+== ep 17 val ego ADE@6s 1.521 (24s)
+ep 18 it 0 loss 1.213 ade 0.621 fde 1.136 ego_ade6 0.898
+ep 18 it 100 loss 1.442 ade 0.620 fde 1.155 ego_ade6 1.121
+ep 18 it 200 loss 1.352 ade 0.631 fde 1.084 ego_ade6 1.037
+ep 18 it 300 loss 1.120 ade 0.592 fde 1.028 ego_ade6 0.850
+== ep 18 val ego ADE@6s 1.512 (25s)
+ep 19 it 0 loss 1.126 ade 0.565 fde 1.032 ego_ade6 0.917
+ep 19 it 100 loss 1.249 ade 0.564 fde 1.007 ego_ade6 1.053
+ep 19 it 200 loss 0.963 ade 0.561 fde 0.947 ego_ade6 0.704
+ep 19 it 300 loss 1.235 ade 0.611 fde 1.058 ego_ade6 0.975
+== ep 19 val ego ADE@6s 1.514 (24s)
+ep 20 it 0 loss 1.441 ade 0.692 fde 1.268 ego_ade6 1.067
+ep 20 it 100 loss 1.717 ade 0.681 fde 1.268 ego_ade6 1.334
+ep 20 it 200 loss 0.974 ade 0.492 fde 0.882 ego_ade6 0.811
+ep 20 it 300 loss 0.993 ade 0.557 fde 1.021 ego_ade6 0.765
+== ep 20 val ego ADE@6s 1.523 (23s)
+ep 21 it 0 loss 1.233 ade 0.465 fde 0.810 ego_ade6 1.103
+ep 21 it 100 loss 1.161 ade 0.590 fde 1.032 ego_ade6 0.925
+ep 21 it 200 loss 1.379 ade 0.627 fde 1.126 ego_ade6 1.075
+ep 21 it 300 loss 1.211 ade 0.504 fde 0.915 ego_ade6 1.072
+== ep 21 val ego ADE@6s 1.532 (25s)
+ep 22 it 0 loss 1.126 ade 0.635 fde 1.126 ego_ade6 0.824
+ep 22 it 100 loss 0.865 ade 0.603 fde 1.110 ego_ade6 0.602
+ep 22 it 200 loss 1.386 ade 0.563 fde 1.039 ego_ade6 1.164
+ep 22 it 300 loss 0.949 ade 0.575 fde 1.056 ego_ade6 0.690
+== ep 22 val ego ADE@6s 1.507 (26s)
+ep 23 it 0 loss 1.206 ade 0.533 fde 0.967 ego_ade6 1.001
+ep 23 it 100 loss 1.482 ade 0.697 fde 1.253 ego_ade6 1.107
+ep 23 it 200 loss 1.135 ade 0.607 fde 1.062 ego_ade6 0.844
+ep 23 it 300 loss 1.162 ade 0.571 fde 1.084 ego_ade6 0.919
+== ep 23 val ego ADE@6s 1.514 (25s)
+ep 24 it 0 loss 1.193 ade 0.606 fde 1.028 ego_ade6 0.858
+ep 24 it 100 loss 0.741 ade 0.509 fde 0.886 ego_ade6 0.583
+ep 24 it 200 loss 1.259 ade 0.620 fde 1.163 ego_ade6 0.952
+ep 24 it 300 loss 0.719 ade 0.477 fde 0.873 ego_ade6 0.566
+== ep 24 val ego ADE@6s 1.517 (26s)
+ep 25 it 0 loss 0.918 ade 0.537 fde 0.948 ego_ade6 0.711
+ep 25 it 100 loss 1.067 ade 0.576 fde 0.983 ego_ade6 0.819
+ep 25 it 200 loss 1.002 ade 0.552 fde 1.020 ego_ade6 0.765
+ep 25 it 300 loss 0.813 ade 0.504 fde 0.911 ego_ade6 0.623
+== ep 25 val ego ADE@6s 1.518 (27s)
+ep 26 it 0 loss 0.936 ade 0.577 fde 0.986 ego_ade6 0.680
+ep 26 it 100 loss 1.129 ade 0.653 fde 1.194 ego_ade6 0.804
+ep 26 it 200 loss 0.859 ade 0.561 fde 0.989 ego_ade6 0.634
+ep 26 it 300 loss 1.032 ade 0.625 fde 1.138 ego_ade6 0.741
+== ep 26 val ego ADE@6s 1.517 (29s)
+ep 27 it 0 loss 0.677 ade 0.503 fde 0.870 ego_ade6 0.517
+ep 27 it 100 loss 0.903 ade 0.559 fde 0.964 ego_ade6 0.660
+ep 27 it 200 loss 0.927 ade 0.529 fde 0.959 ego_ade6 0.719
+ep 27 it 300 loss 0.913 ade 0.586 fde 1.056 ego_ade6 0.648
+== ep 27 val ego ADE@6s 1.517 (31s)
+ep 28 it 0 loss 1.139 ade 0.542 fde 0.958 ego_ade6 0.944
+ep 28 it 100 loss 0.978 ade 0.561 fde 0.977 ego_ade6 0.751
+ep 28 it 200 loss 1.131 ade 0.610 fde 1.141 ego_ade6 0.843
+ep 28 it 300 loss 0.997 ade 0.583 fde 1.023 ego_ade6 0.766
+== ep 28 val ego ADE@6s 1.513 (30s)
+ep 29 it 0 loss 0.911 ade 0.545 fde 1.001 ego_ade6 0.678
+ep 29 it 100 loss 0.998 ade 0.535 fde 0.969 ego_ade6 0.741
+ep 29 it 200 loss 0.965 ade 0.548 fde 1.018 ego_ade6 0.766
+ep 29 it 300 loss 0.799 ade 0.499 fde 0.900 ego_ade6 0.653
+== ep 29 val ego ADE@6s 1.515 (29s)
+{
+ "variant": "gnn_planner",
+ "out": "outputs/gnn_plan",
+ "n": 2000,
+ "thresholds": {
+  "a_max": 2.4620657658487737,
+  "alat_max": 0.6612434293400407,
+  "kappa_max": 0.02700847029181017
+ },
+ "text": {
+  "ADE@6s": 1.5067179203033447,
+  "FDE@6s": 3.663771629333496,
+  "ADE@3s": 0.4793846011161804,
+  "FDE@3s": 1.0973365306854248,
+  "FVR": 0.14583333333333331,
+  "FVR_GT": 0.11041666666666666,
+  "Collision": 0.0345
+ }
+}
